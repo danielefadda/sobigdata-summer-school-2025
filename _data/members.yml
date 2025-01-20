@@ -1,18 +1,24 @@
-- name: Daniele Fadda
+- name: Mark Cotè
   github: https://kdd.isti.cnr.it/people/fadda-daniele
-  role: teacher
-- name: Paolo Ferragina
-  github: https://it.wikipedia.org/wiki/Paolo_Ferragina
-  role: teacher
-- name: Riccardo Guidotti
-  github: https://kdd.isti.cnr.it/people/guidotti-riccardo
-  role: teacher
-- name: Anna Monreale
-  github: https://kdd.isti.cnr.it/people/monreale-anna
-  role: teacher
+  role: chair
+  home: true
 - name: Roberto Trasarti
+  github: https://it.wikipedia.org/wiki/Paolo_Ferragina
+  role: chair
+  home: true
+- name: Daniele Fadda
+  github: https://kdd.isti.cnr.it/people/guidotti-riccardo
+  role: organization
+  home: true
+- name: Marco Braghieri
+  github: https://kdd.isti.cnr.it/people/monreale-anna
+  role: organization
+  home: true
+- name: Michela Natilli
   github: https://kdd.isti.cnr.it/people/trasarti-roberto
-  role: teacher
-- name: Valentina Pansanella
+  role: organization
+  home: true
+- name: Valerio Grossi
   github: https://kdd.isti.cnr.it/people/pansanella-valentina
-  role: tutor
+  role: organization
+  home: true

@@ -4,8 +4,73 @@
 @charset "utf-8";
 // Your custom css /scss here
 
+strong {
+  font-weight: 600;
+}
+
 #sezione-1, #sezione-11, #sezione-12, #mappa-delle-stragi, #galleria {
   scroll-margin-top: 60px; /* Imposta lo spazio di scorrimento prima dell'elemento ancorato */
+}
+
+// pattern full width
+.full-width-wrapper {
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+        }
+
+.full-width-image {
+  min-width: 100%;
+  object-fit: cover;
+  margin-top: -0.8rem;
+  z-index: 0;
+}
+
+
+.rotated {
+transform: rotate(180deg);
+        }
+
+// hero image (header)
+.hero-chulapa-image {
+    background-position: top;
+  z-index: 100;
+}
+
+.hero-chulapa-image h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  text-shadow: none;
+  width: fit-content;
+  padding: 0 0.5rem;
+}
+
+.hero-chulapa-image .p-summary {
+  background-color: #ffffff !important;
+  text-shadow: none;
+  width: fit-content;
+  padding: 0 0.5rem;
+  font-size:1.3rem;
+  font-weight: 500;
+}
+
+.hero-chulapa-image .p-dates {
+  background-color :#de1f36 ;
+  color: #ffffff !important;
+  text-shadow: none;
+  width: fit-content;
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+}
+.hero-chulapa-image .p-name{
+  text-align: left;
+}
+
+.hero-chulapa-image hr{
+  margin-left: 0;
 }
 
 .tech {
@@ -139,8 +204,14 @@ iframe {
   transform: scale(1, 1) !important;
 }
 
+// navbar
+
+.navbar-brand {
+  text-decoration: none;
+}
 .navbar {
   border-bottom: 1px solid white;
+  z-index: 1000;
 }
 
 ul {
@@ -198,4 +269,59 @@ h3 {
     }
   }
 
+}
+
+
+// table
+.program-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: small;
+    border:0px;
+}
+
+.program-table .break {
+    background-color: #f2f2f2;
+}
+
+// grid of logos
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 200px); /* 6 columns with 150px width */
+    gap: 10px; /* Adjust the gap between logos as needed */
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo-grid img {
+    max-width: calc(100% - 10px); /* Adjust for the padding */
+    max-height: calc(100% - 10px); /* Adjust for the padding */
+    width: auto;
+    height: auto;
+    max-height: 60px; /* Adjust the maximum height as needed */
+    display: block;
+    margin: auto; /* Center horizontally and vertically */
+    padding: 5px; /* Padding for the grid squares */
+    box-sizing: border-box; /* Include padding in the total width and height */
+}
+
+// call to action
+.cta {
+  background: url("{{ site.baseurl }}/assets/images/poggio.jpg") no-repeat center center;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.cta h3 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 800;
+}
+
+.cta a {
+  background-color:#de1f36;
+  text-transform: uppercase;
 }

@@ -5,21 +5,21 @@
             <div class="col-md-4">
                 {%- if site.github_repo -%}
                 <p>
-                    <strong>Master in big data analytics & ai for society</strong>
+                    <strong>SoBigData Summer School 2025 Funding</strong>
                 </p>
-                <p>
-                    The Master in Big Data and Artificial Intelligence for Society of the Pisa University is a postgraduate master, addressed to who have a master's degree. The course lasts one year and aims to train new Data Scientists and AI Specialists.
+                <p style="font-size: smaller">
+                    This event is supported by the NextGenerationEU – National Recovery and Resilience Plan (Piano Nazionale di Ripresa e Resilienza, PNRR) – Project: “SoBigData.it – Strengthening the Italian RI for Social Mining and Big Data Analytics” – Prot. IR0000013 – Avviso n. 3264 del 28/12/2021
                 </p>
 
             </div>
             <div class="col-md-4">
                 <p style="padding-left: 1.2rem">
-                    <strong>Teachers</strong>
+                    <strong>General Chairs</strong>
                 </p>
                 {% if site.data.members %}
                 <ol>
                     {% for member in site.data.members %}
-                    {% if member.role == "teacher" %}
+                    {% if member.role == "chair" %}
                     <li>
                         <a href="{{ member.github }}">
                             {{ member.name }}
@@ -31,12 +31,12 @@
                 {%- endif -%}
 
                 <p style="padding-left: 1.2rem">
-                    <strong>Tutor</strong>
+                    <strong>Organizing Committee</strong>
                 </p>
                 {% if site.data.members %}
                 <ol>
                     {% for member in site.data.members %}
-                    {% if member.role == "tutor" %}
+                    {% if member.role == "organization" %}
                     <li>
                         <a href="{{ member.github }}">
                             {{ member.name }}
@@ -50,7 +50,7 @@
             <div class="col-md-4">
                 <div class="mb-2">
                     <img style="margin-left: 0; margin-right:0;"
-                         src="{{site.baseurl}}/assets/images/Logo_SoBigData MASTER.png"
+                         src="{{site.baseurl}}/assets/images/Logo_SoBigData_SC_560_X_100_white.png"
                          alt="SoBigData RI Logo">
                 </div>
                 {%- if site.footer.links -%}
@@ -86,23 +86,14 @@
                 <div role="navigation"
                      class="d-flex flex-wrap justify-content-left">
                     {%- for gitirepo in site.github_repo -%}
-                    <a href={{ gitirepo.url }}>
-                        <i class="fa-pull-left fab fa-github"
-                           style="vertical-align: middle; font-size: 1rem;
-                    line-height: 1.5rem"></i>
-                        {{ gitirepo.name }}</a>
+                    <a href="http://sobigdata.eu" target="_blank">
+                        SoBigData RI website</a>
 
 
                     {%- endfor -%}
                     {%- endif -%}
 
                 </div>
-                <p>
-                    <!-- Do not remove this in order to give  attributions -->
-                    Website powered by <a href="https://jekyllrb.com/"
-                                          target="_blank">Jekyll</a>
-                    <!-- End  attributions -->
-                </p>
 
 
             </div>
