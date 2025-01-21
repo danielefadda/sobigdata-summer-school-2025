@@ -31,8 +31,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 # Riportare il github del gruppo di progetto e quello del sito web (se differente).
 # Tali informazioni appariranno nel Footer del sito.
 github_repo:
-  - name: "SoBigData LBDAI projects"
-    url: "https://github.com/danielefadda/sobigdata-master-projects"
+  - name: "SoBigData Summer school 2025"
+    url: "https://github.com/danielefadda/sobigdata-summer-school-2025"
 
 
 
@@ -118,7 +118,7 @@ footer:
   - label: "Facebook"
     icon: "fab fa-facebook"
     url: https://www.facebook.com/sobigdata
-  copyright: "2024 SoBigData Master Projects"
+  copyright: "2025 SoBigData RI"
 
 
 sass:
