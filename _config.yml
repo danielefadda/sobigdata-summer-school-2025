@@ -144,7 +144,8 @@ include:
   - .nojekyll
 livereload: true
 
-baseurl: "" # the subpath of your site, e.g. /blog
+remote_theme: dieghernan/chulapa
+baseurl: "/sobigdata-summer-school-2025"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 #github_username:  jekyll
