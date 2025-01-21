@@ -10,7 +10,7 @@ header_title: "From Data to Social Innovation"
 ---
 
 <div class="full-width-wrapper">
-    <img src="/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
+    <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
 </div>
 
 <div class="registration">
