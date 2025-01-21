@@ -1,6 +1,6 @@
 - name: "János Kertész"
   institution: "Eötvös University Budapest"
-  img_url:  "assets/images/speaker_Janos_Kertesz.jpg"
+  img_url:  "/assets/images/speaker_Janos_Kertesz.jpg"
   description: "Opinions are an integral part of how we perceive the world and each other. They shape collective action, playing a role in democratic processes, the evolution of norms, and cultural change. Social and natural scientists have introduced a number of agent-based models which capture important aspects of how opinions change due to interactions between people and due to the influence of external effects like media. I will review idealized models of opinion dynamics, and make a connection to other spreading phenomena. Finally I will summarize recent attempts to validate the models with observational data and controlled sociological experiments. Special attention will be paid to polarization and the ongoing fracture of the sociopolitical landscape."
   topics: ["Opinion Dynamics", "Agent-based Modeling", "Social Validation Methods", "Political Polarization"]
   home: true
@@ -10,7 +10,7 @@
   bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nis"
 - name: "Hillel Rapoport"
   institution: "Paris School of Economics"
-  img_url:  "assets/images/speaker_Hillel_ Rapoport.jpg"
+  img_url:  "/assets/images/speaker_Hillel_ Rapoport.jpg"
   description: "The dynamics of migration and its impact on economic development. On the economics of immigration, diversity, and refugees' relocation and resettlement"
   topics: ["Topic 1","Topic 2","Topic 3","Topic 4","Topic 5"]
   home: true
@@ -18,7 +18,7 @@
   bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nis"
 - name: "Virginia Dignum"
   institution: "Umeå University"
-  img_url:  "assets/images/speaker_Virginia_Dignum.jpg"
+  img_url:  "/assets/images/speaker_Virginia_Dignum.jpg"
   description: "Responsible artificial intelligence. Which moral and ethical issues arise from the activity of autonomous intelligent agents in teams? How can activity be regulated? How can intelligent agents and other synthetic entities reason about and take decisions on moral questions."
   topics: ["Topic 1","Topic 2","Topic 3","Topic 4","Topic 5"]
   home: true
@@ -27,7 +27,7 @@
   bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nunc nec ultricies ultricies, nunc nis"
 - name: "Giulio Rossetti"
   institution: "ISTI - CNR"
-  img_url:  "assets/images/speaker_Rossetti.jpg"
+  img_url:  "/assets/images/speaker_Rossetti.jpg"
   description: "Giulio Rossetti (Male, Ph.D in Computer Science) is currently a permanent
 researcher at the Istituto di Scienza e Tecnologie dell'Informazione 'A. Faedo' (ISTI) of the National Research Council (CNR), Pisa, Italy. He is a member of the Knowledge and Data Mining Laboratory (KDD Lab), a joint research group of ISTI-CNR and the University of Pisa."
   topics: ["Topic 1","Topic 2","Topic 3","Topic 4","Topic 5"]

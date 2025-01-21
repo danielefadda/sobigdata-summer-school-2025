@@ -12,7 +12,7 @@ header_title: "From Data to Social Innovation"
 ---
 
 <div class="full-width-wrapper">
-    <img src="../assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
+    <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
 </div>
 
 <div class="introduction">
@@ -36,7 +36,7 @@ header_title: "From Data to Social Innovation"
     <div class="container">
         <div class="row pt-2 ">
             <div class="col-md-6 col-sm-12">
-               <img src="../assets/images/poggio-allagnello.jpeg" alt="Poggio all'Agnello">
+               <img src="{{ site.baseurl }}/assets/images/poggio-allagnello.jpeg" alt="Poggio all'Agnello">
             </div>
         <div class="col-md-6 col-sm-12">
             <h3>WHERE</h3>
@@ -131,11 +131,10 @@ header_title: "From Data to Social Innovation"
     <div class="row">
         <div class="col-md-12">
             <h5>This summer school is organized and supported by</h5>
-<div class="logo-grid">
-            <img src="../assets/images/Logo_SoBigData_SC_560_X_100.png" alt="SoBigData it" >
-            <img src="../assets/images/fondazioneAREA.png" alt="Fondazione area" >
-</div>
-
+        <div class="logo-grid">
+                    <img src="{{ site.baseurl }}/assets/images/Logo_SoBigData_SC_560_X_100.png" alt="SoBigData it" >
+                    <img src="{{ site.baseurl }}/assets/images/fondazioneAREA.png" alt="Fondazione area" >
+        </div>
         </div>
     </div>
 </div>
@@ -144,7 +143,7 @@ header_title: "From Data to Social Innovation"
 <div class="container py-5">
     <div class="row">
         <div class="col-md-12">
-            <img src="../assets/images/sbd_it_footer.jpg" alt="SoBigDataFooter" class="full-width-image">
+            <img src="{{ site.baseurl }}/assets/images/sbd_it_footer.jpg" alt="SoBigDataFooter" class="full-width-image">
         </div>
     </div>
 </div>

@@ -146,7 +146,7 @@ livereload: true
 
 remote_theme: dieghernan/chulapa
 baseurl: "/sobigdata-summer-school-2025"
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://danielefadda.github.io"
 # twitter_username: jekyllrb
 #github_username:  jekyll
 
