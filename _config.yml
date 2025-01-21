@@ -98,9 +98,11 @@ chulapa-skin:
 ##################################################
 
 # Build settings
-theme: chulapa-jekyll
+#theme: chulapa-jekyll # va usato il remote-theme!!!
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
 
 collections:
   pages:

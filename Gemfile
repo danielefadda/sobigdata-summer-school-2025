@@ -1,8 +1,5 @@
 source "https://rubygems.org"
 
-# # Specifichiamo la versione di Ruby richiesta
-# ruby "~> 3.3.0"
-
 # La gemma principale per GitHub Pages
 gem "github-pages", "~> 232"
 
@@ -16,11 +13,13 @@ gem "kramdown-parser-gfm", "~> 1.1.0"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17.0"
   gem "jekyll-seo-tag", "~> 2.8.0"
-  # Aggiungi qui altri plugin che ti servono dalla lista
+  gem "jekyll-remote-theme", "~> 0.4.3"  # Aggiunta questa gemma essenziale
+  gem "jekyll-include-cache", "~> 0.2.1"  # Aggiungi questa nuova gemma
 end
 
-gem "minima", "~> 2.5"
-gem "chulapa-jekyll"
+# Rimuovi queste due gemme perché non necessarie
+# gem "minima", "~> 2.5"
+# gem "chulapa-jekyll"
 
 # Gemme necessarie per Windows
 platforms :mingw, :x64_mingw, :mswin, :jruby do
