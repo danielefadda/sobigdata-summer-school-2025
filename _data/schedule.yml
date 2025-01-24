@@ -1,0 +1,75 @@
+headers:
+- "TIME"
+- "Sunday 16"
+- "Monday 17"
+- "Tuesday 18"
+- "Wednesday 19"
+- "Thursday 20"
+- "Friday 21"
+
+activities:
+- time: "9:00 9:30"
+  monday: Registration
+  class: break
+
+- time: "9:30 10:00"
+  monday: "Round of presentations (Students)"
+  tuesday: "**Giulio Rossetti** \n Y-Social"
+  wednesday: "**János Kertész** \n ???"
+  thursday: "**Giulio's friend** \n ???"
+  friday: "**Daniele Quercia** \n ???"
+
+- time: "10:00 10:30"
+  monday: "**Michela Natilli** \n SoBigData RI & School Introduction"
+
+
+- time: "10:30 11:00"
+  monday: "**Roberta Savella** \n Framework legale DSA DGA"
+
+- time: "11:00 11:30"
+  monday: Coffee Break
+  tuesday: Coffee Break
+  wednesday: Coffee Break
+  thursday: Coffee Break
+  friday: Coffee Break
+  class: break
+
+- time: "11:30 12:30"
+  monday: "**Tom Emery** \n Open Science"
+  tuesday: "**Chiara Boldrini** \n (IMT)The role of social media in the spread of misinformation"
+  wednesday: "**???** \n ???"
+  thursday: "**Carlos Castillio** \n discrimination"
+  friday: "**Sudent presentation** \n Katerina, Mark, Antinisca"
+
+- time: "12:30 13:30"
+  monday: "**Mark Coté** \n Data Altruism: Data for Public Good"
+  tuesday: "**???** \n ???"
+  wednesday: "**Paulo Gerbaudo** \n ???"
+  thursday: "**Luca Pappalardo** \n Gentrification"
+
+- time: "13:30 15:00"
+  monday: Lunch Break
+  tuesday: Lunch Break
+  wednesday: Lunch Break
+  thursday: Lunch Break
+  friday: Lunch Break
+  class: break
+
+- time: "15:00 18:00"
+  monday: "Developing Student Projects with Tutors"
+  tuesday: "Developing Student Projects with Tutors"
+  wednesday: "**Social Event** \n trip to Populonia"
+  thursday: "Developing Student Projects with Tutors"
+  friday: "Open discussion for follow-up activities"
+
+- time: "18:00"
+  sunday: "Welcome Cocktail"
+  tuesday: "**Social Event** \n Petra Winery"
+
+- time: "20:00"
+  sunday: "Hotel Dinner"
+  monday: "Hotel Dinner"
+  tuesday: "**Social program** \n Winery visit and social dinner"
+  wednesday: "Hotel Dinner"
+  thursday: "**Social program** \n Pizza and DJ set"
+  friday: "Hotel Dinner"

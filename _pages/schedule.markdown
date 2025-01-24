@@ -31,119 +31,27 @@ header_title: "From Data to Social Innovation"
         <div class="row py-3">
             <div class="col-12">
                 <div class="program-table">
-                <table border="1" cellpadding="8" cellspacing="0">
-                    <thead>
-                        <tr>
-                            <th>TIME</th>
-                            <th>Sunday 16</th>
-                            <th>Monday 17</th>
-                            <th>Tuesday 18</th> 
-                            <th>Wednesday 19</th>   
-                            <th>Thursday 20</th>    
-                            <th>Friday 21</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="break">
-                            <td>9:00 9:30</td>
-                            <td></td>
-                            <td>Registration</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>9:30 10:00</td>
-                            <td></td>
-                            <td>Round of presentations (Students)</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>10:00 10:30</td>
-                            <td></td>
-                            <td>Roberto Trasarti - "SciDaSuite RLS School Introduction"</td>
-                            <td>Richard Rogers - "Automated Auditing"</td>
-                            <td>Alexandre Barth - "Multivariate convolutional neural networks with error estimates to reconstruct missing data in satellite observations"</td>
-                            <td>Maryam Mehrnezhad - "Cybersecurity, privacy, bias, and trust in female-oriented technologies"</td>
-                            <td>Katharina Munk - "Resource-Aware Machine Learning"</td>
-                        </tr>
-                        <tr>
-                            <td>10:30 11:00</td>
-                            <td></td>
-                            <td>Angeliki Tzouganatou - "Fostering Open Science Practices"</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr class="break">
-                            <td>11:00 11:30</td>
-                            <td></td>
-                            <td>Coffee Break</td>
-                            <td>Coffee Break</td>
-                            <td>Coffee Break</td>
-                            <td>Coffee Break</td>
-                            <td>Coffee Break</td>
-                        </tr>
-                        <tr>
-                            <td>11:30 12:30</td>
-                            <td></td>
-                            <td>Giovanni Comandé Data (SSSA) - "Governance AI+ethics"</td>
-                            <td>Roberto Pellungrini (SNS) - "Explainable AI and hybrid Decision Making Systems"</td>
-                            <td>Angelo Facchini (IMT) - "Tracing two decades of carbon emissions using a network approach"</td>
-                            <td>Antinsca Di Marco (UNINA/Q)- "Analyzing health data: from genomic to clinical data"</td>
-                            <td>Mark Cole, Massimiliano Assante, Katharina Munk and Richard Rogers "Project Evaluation"</td>
-                        </tr>
-                        <tr>
-                            <td>12:30 13:30</td>
-                            <td></td>
-                            <td>Mark Cole (VCL) - "Data Altruism: Data for Public Good?"</td>
-                            <td>Salvatore Ruggieri "Bias in AI"</td>
-                            <td>Franco D. Cicirelli (ICAR)- "Sustainable Cognitive Buildings"</td>
-                            <td>Jennifer Pybus (York University) - "Tracking Human Health Using Method for Auditing Menopause App Infrastructure"</td>
-                            <td></td>
-                        </tr>
-                        <tr class="break">
-                            <td>13:30 15:00</td>
-                            <td></td>
-                            <td>Lunch Break</td>
-                            <td>Lunch Break</td>
-                            <td>Lunch Break</td>
-                            <td>Lunch Break</td>
-                            <td>Lunch Break</td>
-                        </tr>
-                        <tr>
-                            <td>15:00 18:00</td>
-                            <td></td>
-                            <td>Developing Student Projects with Tutors</td>
-                            <td>Developing Student Projects with Tutors</td>
-                            <td>Social Event: trip Populonia</td>
-                            <td>Developing Student Projects with Tutors</td>
-                            <td>Open discussion for follow-up activities</td>
-                        </tr>
-                        <tr>
-                            <td>18:00</td>
-                            <td>Welcome Cocktail</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>20:00</td>
-                            <td>Hotel Dinner</td>
-                            <td>Hotel Dinner</td>
-                            <td>Social program - Winery visit and social dinner</td>
-                            <td>Hotel Dinner</td>
-                            <td>Social program - Pizza and DJ set</td>
-                            <td>Hotel Dinner</td>
-                        </tr>
-                    </tbody>
+                <table>
+                  <thead>
+                    <tr>
+                    {% for header in site.data.schedule.headers %}
+                      <th>{{ header   | markdownify }}</th>
+                    {% endfor %}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for activity in site.data.schedule.activities %}
+                      <tr {% if activity.class %}class="{{ activity.class }}"{% endif %}>
+                        <td>{{ activity.time   | markdownify }}</td>
+                        <td>{{ activity.sunday   | markdownify }}</td>
+                        <td>{{ activity.monday   | markdownify }}</td>
+                        <td>{{ activity.tuesday | markdownify }}</td>
+                        <td>{{ activity.wednesday   | markdownify }}</td>
+                        <td>{{ activity.thursday   | markdownify }}</td>
+                        <td>{{ activity.friday   | markdownify }}</td>
+                      </tr>
+                    {% endfor %}
+                  </tbody>
                 </table>
             </div>
         </div>

@@ -34,7 +34,7 @@ github_repo:
   - name: "SoBigData Summer school 2025"
     url: "https://github.com/danielefadda/sobigdata-summer-school-2025"
 
-
+markdown: kramdown
 
 
 
