@@ -277,8 +277,19 @@ h3 {
     width: 100%;
     border-collapse: collapse;
     font-size: small;
-    border:0px;
+    border: 1px solid #f2f2f2;
 }
+
+.program-table th {
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.program-table td {
+    border: 1px solid #f2f2f2;
+    vertical-align: top;
+}
+
 
 .program-table .break {
     background-color: #f2f2f2;

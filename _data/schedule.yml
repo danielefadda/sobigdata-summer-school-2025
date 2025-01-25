@@ -8,23 +8,33 @@ headers:
 - "Friday 21"
 
 activities:
-- time: "9:00 9:30"
+- time: "09:00 09:30"
   monday: Registration
-  class: break
 
-- time: "9:30 10:00"
-  monday: "Round of presentations (Students)"
-  tuesday: "**Giulio Rossetti** ▪ Y-Social"
-  wednesday: "**János Kertész** ▪ ???"
-  thursday: "**Giulio's friend** ▪ ???"
-  friday: "**Daniele Quercia** ▪ ???"
+- time: "09:30 10:00"
+  sunday:
+    content: "Meeting with Tutors"
+    rowspan: 8
+  monday:
+    content: "Round of presentations (Students)"
+  tuesday:
+    content: "**Giulio Rossetti** <br> Y-Social"
+    rowspan: 3
+  wednesday:
+    content: "**János Kertész**<br>???"
+    rowspan: 3
+  thursday:
+    content: "**Giulio's friend**<br>???"
+    rowspan: 3
+  friday:
+    content: "**Daniele Quercia**<br>???"
+    rowspan: 3
 
 - time: "10:00 10:30"
-  monday: "**Michela Natilli** ▪ SoBigData RI & School Introduction"
-
+  monday: "**Michela Natilli**<br>SoBigData RI & School Introduction"
 
 - time: "10:30 11:00"
-  monday: "**Roberta Savella** ▪ Framework legale DSA DGA"
+  monday: "**Roberta Savella**<br>Framework legale DSA DGA"
 
 - time: "11:00 11:30"
   monday: COFFEE BREAK
@@ -35,17 +45,17 @@ activities:
   class: break
 
 - time: "11:30 12:30"
-  monday: "**Tom Emery** ▪ Open Science"
-  tuesday: "**Chiara Boldrini** ▪ (IMT)The role of social media in the spread of misinformation"
-  wednesday: "**???** ▪ ???"
-  thursday: "**Carlos Castillio** ▪ discrimination"
-  friday: "**Sudent presentation** ▪ Katerina, Mark, Antinisca"
+  monday: "**Tom Emery**<br>Open Science"
+  tuesday: "**Chiara Boldrini**<br>(IMT)The role of social media in the spread of misinformation"
+  wednesday: "**???**<br>???"
+  thursday: "**Carlos Castillio**<br>discrimination"
+  friday: "**Sudent presentation**<br>Katerina, Mark, Antinisca"
 
 - time: "12:30 13:30"
-  monday: "**Mark Coté** ▪ Data Altruism: Data for Public Good"
-  tuesday: "**???** ▪ ???"
-  wednesday: "**Paulo Gerbaudo** ▪ ???"
-  thursday: "**Luca Pappalardo** ▪ Gentrification"
+  monday: "**Mark Coté**<br>Data Altruism: Data for Public Good"
+  tuesday: "**???**<br>???"
+  wednesday: "**Paulo Gerbaudo**<br>???"
+  thursday: "**Luca Pappalardo**<br>Gentrification"
 
 - time: "13:30 15:00"
   monday: Lunch Break
@@ -56,20 +66,28 @@ activities:
   class: break
 
 - time: "15:00 18:00"
-  monday: "Developing Student Projects with Tutors"
-  tuesday: "Developing Student Projects with Tutors"
-  wednesday: "**Social Event** ▪ trip to Populonia"
+  monday:
+    content: "Developing Student Projects with Tutors"
+    rowspan: 2
+  tuesday:
+    content: "Developing Student Projects with Tutors"
+    rowspan: 2
+  wednesday:
+    content: "**Social Event**<br>trip to Populonia"
+    rowspan: 2
   thursday: "Developing Student Projects with Tutors"
-  friday: "Open discussion for follow-up activities"
+  friday:
+    content: "Open discussion for follow-up activities"
+    rowspan: 2
 
 - time: "18:00"
   sunday: "Welcome Cocktail"
-  tuesday: "**Social Event** ▪ Petra Winery"
+  wednesday: "**Social Event**<br>Petra Winery"
 
 - time: "20:00"
   sunday: "Hotel Dinner"
   monday: "Hotel Dinner"
-  tuesday: "**Social program** ▪ Winery visit and social dinner"
+  tuesday: "**Social program**<br>Winery visit and social dinner"
   wednesday: "Hotel Dinner"
-  thursday: "**Social program** ▪ Pizza and DJ set"
+  thursday: "**Social program**<br>Pizza and DJ set"
   friday: "Hotel Dinner"

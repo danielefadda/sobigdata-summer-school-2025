@@ -35,20 +35,44 @@ header_title: "From Data to Social Innovation"
                   <thead>
                     <tr>
                     {% for header in site.data.schedule.headers %}
-                      <th>{{ header   | markdownify }}</th>
+                      <th>{{ header | markdownify }}</th>
                     {% endfor %}
                     </tr>
                   </thead>
                   <tbody>
                     {% for activity in site.data.schedule.activities %}
                       <tr {% if activity.class %}class="{{ activity.class }}"{% endif %}>
-                        <td>{{ activity.time   | markdownify }}</td>
-                        <td>{{ activity.sunday   | markdownify }}</td>
-                        <td>{{ activity.monday   | markdownify }}</td>
-                        <td>{{ activity.tuesday | markdownify }}</td>
-                        <td>{{ activity.wednesday   | markdownify }}</td>
-                        <td>{{ activity.thursday   | markdownify }}</td>
-                        <td>{{ activity.friday   | markdownify }}</td>
+                        <td>{{ activity.time | markdownify }}</td>
+                        {% if activity.sunday.content %}
+                          <td rowspan="{{ activity.sunday.rowspan }}">{{ activity.sunday.content | markdownify }}</td>
+                        {% elsif activity.sunday %}
+                          <td>{{ activity.sunday | markdownify }}</td>
+                        {% endif %}
+                        {% if activity.monday.content %}
+                          <td rowspan="{{ activity.monday.rowspan }}">{{ activity.monday.content | markdownify }}</td>
+                        {% elsif activity.monday %}
+                          <td>{{ activity.monday | markdownify }}</td>
+                        {% endif %}
+                        {% if activity.tuesday.content %}
+                          <td rowspan="{{ activity.tuesday.rowspan }}">{{ activity.tuesday.content | markdownify }}</td>
+                        {% elsif activity.tuesday %}
+                          <td>{{ activity.tuesday | markdownify }}</td>
+                        {% endif %}
+{% if activity.wednesday.content %}
+                          <td rowspan="{{ activity.wednesday.rowspan }}">{{ activity.wednesday.content | markdownify }}</td>
+                        {% elsif activity.wednesday %}
+                          <td>{{ activity.wednesday | markdownify }}</td>
+                        {% endif %}
+{% if activity.thursday.content %}
+                          <td rowspan="{{ activity.thursday.rowspan }}">{{ activity.thursday.content | markdownify }}</td>
+                        {% elsif activity.thursday %}
+                          <td>{{ activity.thursday | markdownify }}</td>
+                        {% endif %}
+{% if activity.friday.content %}
+                          <td rowspan="{{ activity.friday.rowspan }}">{{ activity.friday.content | markdownify }}</td>
+                        {% elsif activity.friday %}
+                          <td>{{ activity.friday | markdownify }}</td>
+                        {% endif %}                        
                       </tr>
                     {% endfor %}
                   </tbody>
