@@ -40,11 +40,11 @@ header_title: "From Data to Social Innovation"
             </div>
         <div class="col-md-6 col-sm-12">
             <h3>WHERE</h3>
-            <p class="lead">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="/accomodation">Poggio all’Agnello </a> is a fully equipped resort that will host the 2025 edition of the SoBigData Summer school.
+            <p class="lead">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="{{ site.baseurl }}/accomodation">Poggio all’Agnello </a> is a fully equipped resort that will host the 2025 edition of the SoBigData Summer school.
             </p>
             <h3>Registration & Deadline</h3>
             <p>Early registration until Tuesday 30 April 2025.</p>
-            <p><strong>Late registration between Wednesday 1 May 2024 and Friday 31 May 2024 will have an additional cost.</strong> There are different fee options, please see the <a href="/registration">registration page</a> for details.</p>
+            <p><strong>Late registration between Wednesday 1 May 2024 and Friday 31 May 2024 will have an additional cost.</strong> There are different fee options, please see the <a href="{{ site.baseurl }}/registration">registration page</a> for details.</p>
             </div>
         </div>
     </div>
