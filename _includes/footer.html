@@ -21,7 +21,7 @@
                     {% for member in site.data.members %}
                     {% if member.role == "chair" %}
                     <li>
-                        <a href="{{ member.github }}">
+                        <a href="{{ member.github }}" target="_blank">
                             {{ member.name }}
                         </a>
                     </li>
@@ -38,7 +38,7 @@
                     {% for member in site.data.members %}
                     {% if member.role == "organization" %}
                     <li>
-                        <a href="{{ member.github }}">
+                        <a href="{{ member.github }}" target="_blank">
                             {{ member.name }}
                         </a>
                     </li>

@@ -5,7 +5,7 @@
 layout: default-full
 title: "Home"
 show_sidetoc: true
-subtitle: "22-28 June 2025 Baratti – TUSCANY (Italy)"
+subtitle: "22-27 June 2025 – Baratti (Piombino) – TUSCANY (Italy)"
 header_title: "From Data to Social Innovation"
 ---
 
@@ -20,11 +20,11 @@ header_title: "From Data to Social Innovation"
                 <h3>Registration for the SoBigData Summer School 2025</h3>
                 <p style="text-align:justify">There are <strong>different fees</strong> for different solutions: </p>
                     <ul>
-<li><h5>Solution S1 – €1100 (single room)</h5></li>
-<li><h5>Solution S2 – €840 (double room)</h5></li>
-<li><h5>Solution S3 – €770 (triple room)</h5></li>
-<li><h5>Solution S4 – €740 (quadruple room)</h5></li>
-<li><h5>Solution S5 – €550 (no room)</h5></li>
+                        <li><h5>Solution S1 – €1100 (single room)</h5></li>
+                        <li><h5>Solution S2 – €840 (double room)</h5></li>
+                        <li><h5>Solution S3 – €770 (triple room)</h5></li>
+                        <li><h5>Solution S4 – €740 (quadruple room)</h5></li>
+                        <li><h5>Solution S5 – €550 (no room)</h5></li>
                     </ul>
                 <hr>
                 <p>These fees are valid until Tuesday <strong>30 April 2024 (early registration).</strong>

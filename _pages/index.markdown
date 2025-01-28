@@ -5,7 +5,7 @@
 layout: default-full
 title: "Home"
 show_sidetoc: true
-subtitle: "22-28 June 2025 – Baratti (Piombino) – TUSCANY (Italy)"
+subtitle: "22-27 June 2025 – Baratti (Piombino) – TUSCANY (Italy)"
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/poggio.jpg
 header_title: "From Data to Social Innovation"
@@ -40,11 +40,11 @@ header_title: "From Data to Social Innovation"
             </div>
         <div class="col-md-6 col-sm-12">
             <h3>WHERE</h3>
-            <p class="lead">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="https://www.poggioallagnello.it/en/">Poggio all’Agnello </a> is a fully equipped resort that will host the 2025 edition of the SoBigData Summer school.
+            <p class="lead">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="/accomodation">Poggio all’Agnello </a> is a fully equipped resort that will host the 2025 edition of the SoBigData Summer school.
             </p>
             <h3>Registration & Deadline</h3>
             <p>Early registration until Tuesday 30 April 2025.</p>
-            <p><strong>Late registration between Wednesday 1 May 2024 and Friday 31 May 2024 will have an additional cost.</strong> There are different fee options, please see the Registration page for details.</p>
+            <p><strong>Late registration between Wednesday 1 May 2024 and Friday 31 May 2024 will have an additional cost.</strong> There are different fee options, please see the <a href="/registration">registration page</a> for details.</p>
             </div>
         </div>
     </div>
@@ -82,35 +82,42 @@ header_title: "From Data to Social Innovation"
     </div>
 </div>
 
-<div class="container py-3" id="projects-container">
-        <h3>Keynote speakers</h3>   
-        {% for speaker in site.data.speaker-cards %}
-            {% if speaker.home == true %}
-                <div class="row py-3 my-3 project" >
-                        <div class="col-md-4">
-                            <div class="project-img"><img src="{{site.baseurl}}{{ speaker.img_url}}" alt="{{ speaker.name }}" style="width:100%"></div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="project-body">
-                                <h5>{{ speaker.name }} </h5>
-                                <p><strong> {{ speaker.institution }}</strong></p>
-                                <p>{{ speaker.description }}</p>
-                                {% assign topics = speaker.topics | split: "," %}
-                                <p class="students">
-                                <em><strong>Topic</strong>:
-                                    {% for topic in topics %}
-                                        {% if forloop.last %}
-                                            <span>{{ topic | strip |  replace: '[', ''  |  replace: ']', '' |  replace: '"', '' }}.</span>
-                                        {% else %}
-                                            <span>{{ topic | strip |  replace: '[', ''  |  replace: ']', '' |  replace: '"', '' }}, </span>
-                                        {% endif %}
-                                    {% endfor %}
-                                </em></p>
+
+<div class="container" id="projects-container">
+    <div class="row py-3 my-3">
+        <div class="col-md-8 offset-md-2 col-sm-12">
+            <h3>Keynote speakers</h3>
+            {% assign sorted_speakers = site.data.speaker-cards | sort: "day" %}
+            {% for speaker in sorted_speakers %}
+                {% if speaker.home == true %}
+                    <div class="row py-3 my-3 project" >
+                            <div class="col-md-4">
+                                <div class="project-img"><img src="{{site.baseurl}}{{ speaker.img_url}}" alt="{{ speaker.name }}" style="width:100%"></div>
                             </div>
-                        </div>
-                </div>
-            {% endif %}
-        {% endfor %}
+                            <div class="col-md-8">
+                                <div class="project-body">
+                                    <h5>{{ speaker.name }} </h5>
+                                    <p><em>{{ speaker.institution }}</em></p>
+                                    <p><strong>{{ speaker.title }}</strong></p>
+                                    <p>{{ speaker.description }}</p>
+                                    {% assign topics = speaker.topics | split: "," %}
+                                    <p class="students">
+                                    <em><strong>Topic</strong>:
+                                        {% for topic in topics %}
+                                            {% if forloop.last %}
+                                                <span>{{ topic | strip |  replace: '[', ''  |  replace: ']', '' |  replace: '"', '' }}.</span>
+                                            {% else %}
+                                                <span>{{ topic | strip |  replace: '[', ''  |  replace: ']', '' |  replace: '"', '' }}, </span>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </em></p>
+                                </div>
+                            </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
 </div>
 <div class="container cta">
         <div class="row py-5">

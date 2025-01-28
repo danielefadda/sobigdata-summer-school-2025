@@ -5,7 +5,7 @@
 layout: default-full
 title: "Home"
 show_sidetoc: true
-subtitle: "22-28 June 2025 Baratti – TUSCANY (Italy)"
+subtitle: "22-27 June 2025 – Baratti (Piombino) – TUSCANY (Italy)"
 header_title: "From Data to Social Innovation"
 ---
 
@@ -87,7 +87,8 @@ header_title: "From Data to Social Innovation"
 
 <div class="container py-3" id="projects-container">
         <h3>All the speakers</h3>   
-        {% for speaker in site.data.speaker-cards %}
+        {% assign sorted_speakers = site.data.speaker-cards | sort: "day" %}
+            {% for speaker in sorted_speakers %}
                 <div class="row py-3 my-3 project" >
                         <div class="col-md-4">
                             <div class="project-img"><img src="{{site.baseurl}}{{ speaker.img_url}}" alt="{{ speaker.name }}" style="width:100%"></div>
@@ -96,18 +97,8 @@ header_title: "From Data to Social Innovation"
                             <div class="project-body">
                                 <h5>{{ speaker.name }} </h5>
                                 <p><strong> {{ speaker.institution }}</strong></p>
-                                <p>{{ speaker.description }}</p>
+                                <p>{{ speaker.bio }}</p>
                                 {% assign topics = speaker.topics | split: "," %}
-                                <p class="students">
-                                <em><strong>Topic</strong>:
-                                    {% for topic in topics %}
-                                        {% if forloop.last %}
-                                            <span>{{ topic | strip |  replace: '[', ''  |  replace: ']', '' |  replace: '"', '' }}.</span>
-                                        {% else %}
-                                            <span>{{ topic | strip |  replace: '[', ''  |  replace: ']', '' |  replace: '"', '' }}, </span>
-                                        {% endif %}
-                                    {% endfor %}
-                                </em></p>
                             </div>
                         </div>
                 </div>

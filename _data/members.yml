@@ -1,24 +1,24 @@
 - name: Mark Cotè
-  github: https://kdd.isti.cnr.it/people/fadda-daniele
+  github: https://www.kcl.ac.uk/people/mark-cote
   role: chair
   home: true
 - name: Roberto Trasarti
-  github: https://it.wikipedia.org/wiki/Paolo_Ferragina
+  github: https://kdd.isti.cnr.it/people/trasarti-roberto
   role: chair
   home: true
 - name: Daniele Fadda
-  github: https://kdd.isti.cnr.it/people/guidotti-riccardo
+  github: https://kdd.isti.cnr.it/people/fadda-daniele
   role: organization
   home: true
 - name: Marco Braghieri
-  github: https://kdd.isti.cnr.it/people/monreale-anna
+  github: https://www.kcl.ac.uk/people/marco-braghieri
   role: organization
   home: true
 - name: Michela Natilli
-  github: https://kdd.isti.cnr.it/people/trasarti-roberto
+  github: https://kdd.isti.cnr.it/people/natilli-michela
   role: organization
   home: true
 - name: Valerio Grossi
-  github: https://kdd.isti.cnr.it/people/pansanella-valentina
+  github: https://kdd.isti.cnr.it/people/grossi-valerio
   role: organization
   home: true

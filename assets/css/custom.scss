@@ -214,6 +214,10 @@ iframe {
   z-index: 1000;
 }
 
+.navbar a.dropdown-item:hover {
+  color: #de1f36 !important;
+}
+
 ul {
   list-style-type: square;
 }
@@ -245,6 +249,19 @@ ul {
   border-radius: 0;
   padding-inline-start: 0.4em;
   padding-inline-end: 0.4em;
+    color: #de1f36;
+}
+
+.nav-link:last-child {
+  color: lightgray !important;
+}
+
+.fas {
+  color: grey;
+}
+
+.nav-link:last-child:hover {
+  color: #fff !important;
 }
 
 .header-chulapa h1 {

@@ -1,93 +1,94 @@
 headers:
 - "TIME"
-- "Sunday 16"
-- "Monday 17"
-- "Tuesday 18"
-- "Wednesday 19"
-- "Thursday 20"
-- "Friday 21"
+- "Sunday 22"
+- "Monday 23"
+- "Tuesday 24"
+- "Wednesday 25"
+- "Thursday 26"
+- "Friday 27"
 
 activities:
 - time: "09:00 09:30"
-  monday: Registration
+  monday: "<i class='fas fa-id-card'></i> **Registration**"
 
 - time: "09:30 10:00"
   sunday:
-    content: "Meeting with Tutors"
+    content: "<i class='fas fa-comments'></i> **Meeting with Tutors**"
     rowspan: 8
   monday:
-    content: "Round of presentations (Students)"
+    content: "<i class='fas fa-comments'></i> **Round of presentations** (Students)"
   tuesday:
-    content: "**Giulio Rossetti** <br> Y-Social"
+    content: "<i class='fas fa-comment'></i> **Giulio Rossetti** <br> Y-Social"
     rowspan: 3
   wednesday:
-    content: "**János Kertész**<br>???"
+    content: "<i class='fas fa-comment'></i> **János Kertész**<br>???"
     rowspan: 3
   thursday:
-    content: "**Giulio's friend**<br>???"
+    content: "<i class='fas fa-comment'></i> **Jussara Marques de Almeida**<br>???"
     rowspan: 3
   friday:
-    content: "**Daniele Quercia**<br>???"
+    content: "<i class='fas fa-comment'></i> **Daniele Quercia**<br>???"
     rowspan: 3
 
 - time: "10:00 10:30"
-  monday: "**Michela Natilli**<br>SoBigData RI & School Introduction"
+  monday: "<i class='fas fa-comment'></i> **Michela Natilli**<br>SoBigData RI & School Introduction"
 
 - time: "10:30 11:00"
-  monday: "**Roberta Savella**<br>Framework legale DSA DGA"
+  monday: "<i class='fas fa-comment'></i> **Roberta Savella**<br>Framework legale DSA DGA"
 
 - time: "11:00 11:30"
-  monday: COFFEE BREAK
-  tuesday: COFFEE BREAK
-  wednesday: COFFEE BREAK
-  thursday: COFFEE BREAK
-  friday: COFFEE BREAK
+  monday: "<i class='fas fa-coffee'></i> Coffee Break"
+  tuesday: "<i class='fas fa-coffee'></i> Coffee Break"
+  wednesday: "<i class='fas fa-coffee'></i> Coffee Break"
+  thursday: "<i class='fas fa-coffee'></i> Coffee Break"
+  friday: "<i class='fas fa-coffee'></i> Coffee Break"
   class: break
 
 - time: "11:30 12:30"
-  monday: "**Tom Emery**<br>Open Science"
-  tuesday: "**Chiara Boldrini**<br>(IMT)The role of social media in the spread of misinformation"
-  wednesday: "**???**<br>???"
-  thursday: "**Carlos Castillio**<br>discrimination"
-  friday: "**Sudent presentation**<br>Katerina, Mark, Antinisca"
+  monday: "<i class='fas fa-comment'></i> **Tom Emery**<br>Open Science"
+  tuesday: "<i class='fas fa-comment'></i> **Chiara Boldrini**<br>(IMT)The role of social media in the spread of misinformation"
+  wednesday: "<i class='fas fa-comment'></i> **???**<br>???"
+  thursday: "<i class='fas fa-comment'></i> **Carlos Castillio**<br>discrimination"
+  friday: "<i class='fas fa-comments'></i> **Sudent presentation**<br>Katerina, Mark, Antinisca"
 
 - time: "12:30 13:30"
-  monday: "**Mark Coté**<br>Data Altruism: Data for Public Good"
-  tuesday: "**???**<br>???"
-  wednesday: "**Paulo Gerbaudo**<br>???"
-  thursday: "**Luca Pappalardo**<br>Gentrification"
+  monday: "<i class='fas fa-comment'></i> **Mark Coté**<br>Data Altruism: Data for Public Good"
+  tuesday: "<i class='fas fa-comment'></i> **???**<br>???"
+  wednesday: "<i class='fas fa-comment'></i> **Paulo Gerbaudo**<br>???"
+  thursday: "<i class='fas fa-comment'></i> **Luca Pappalardo**<br>Gentrification"
 
 - time: "13:30 15:00"
-  monday: Lunch Break
-  tuesday: Lunch Break
-  wednesday: Lunch Break
-  thursday: Lunch Break
-  friday: Lunch Break
+  monday: "<i class='fas fa-cutlery'></i> Lunch Break"
+  tuesday: "<i class='fas fa-cutlery'></i> Lunch Break"
+  wednesday: "<i class='fas fa-cutlery'></i> Lunch Break"
+  thursday: "<i class='fas fa-cutlery'></i> Lunch Break"
+  friday: "<i class='fas fa-cutlery'></i> Lunch Break"
   class: break
 
 - time: "15:00 18:00"
   monday:
-    content: "Developing Student Projects with Tutors"
+    content: "<i class='fas  fa-laptop'></i> **Student Projects <br>Development**"
     rowspan: 2
   tuesday:
-    content: "Developing Student Projects with Tutors"
+    content: "<i class='fas  fa-laptop'></i> **Student Projects <br>Development**"
     rowspan: 2
   wednesday:
-    content: "**Social Event**<br>trip to Populonia"
+    content: "<i class='fas  fa-handshake'></i> **Social Event**<br>trip to Populonia"
     rowspan: 2
-  thursday: "Developing Student Projects with Tutors"
+  thursday:
+    content: "<i class='fas  fa-laptop'></i> **Student Projects <br>Development**"
+    rowspan: 2
   friday:
-    content: "Open discussion for follow-up activities"
+    content: "<i class='fas fa-comment'></i> Open discussion for follow-up activities"
     rowspan: 2
 
 - time: "18:00"
-  sunday: "Welcome Cocktail"
-  wednesday: "**Social Event**<br>Petra Winery"
+  sunday: "<i class='fas  fa-handshake'></i> Welcome Cocktail"
 
 - time: "20:00"
-  sunday: "Hotel Dinner"
-  monday: "Hotel Dinner"
-  tuesday: "**Social program**<br>Winery visit and social dinner"
-  wednesday: "Hotel Dinner"
-  thursday: "**Social program**<br>Pizza and DJ set"
-  friday: "Hotel Dinner"
+  sunday: "<i class='fas fa-cutlery'></i> Hotel Dinner"
+  monday: "<i class='fas fa-cutlery'></i> Hotel Dinner"
+  tuesday: "<i class='fas  fa-handshake'></i> **Social Event**<br>Winery visit and social dinner"
+  wednesday: "<i class='fas fa-cutlery'></i> Hotel Dinner"
+  thursday: "<i class='fas  fa-handshake'></i> **Social Event**<br>Pizza and DJ set"
+  friday: "<i class='fas fa-cutlery'></i> Hotel Dinner"

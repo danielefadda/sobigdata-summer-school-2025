@@ -5,7 +5,7 @@
 layout: default-full
 title: "Home"
 show_sidetoc: true
-subtitle: "22-28 June 2025 Baratti – TUSCANY (Italy)"
+subtitle: "22-27 June 2025 – Baratti (Piombino) – TUSCANY (Italy)"
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/poggio.jpg
 header_title: "From Data to Social Innovation"
@@ -21,7 +21,7 @@ header_title: "From Data to Social Innovation"
         <div class="row pt-2 ">
             <div class="col-md-8 offset-md-2 col-sm-12">
                 <h3>Accomodation</h3>
-                <p class="lead" style="text-align:justify">The venue Poggio all’Agnello offers a variety of <a href="https://www.poggioallagnello.it/en/apartments/">studio, one-bedroom and connecting apartments</a>. Some apartments can accommodate up to five individuals. The following is the price per night for each individual: </p>
+                <p class="lead" style="text-align:justify">The venue Poggio all’Agnello offers a variety of studio, one-bedroom and connecting apartments. Some apartments can accommodate up to five individuals. The following is the price per night for each individual: </p>
                 <hr>
                 <ul>
                     <li><h5>1 Individual - <strong>90€ per night</strong></h5></li>
@@ -31,6 +31,7 @@ header_title: "From Data to Social Innovation"
                     <li><h5>5 Individuals - <strong>24 € per night</strong></h5></li>
                 </ul>
                 <hr>
+                <p>For more informations you can visit <a href="https://www.poggioallagnello.it/en/apartments/" target="_blank">Poggio all'Agnello website</a>.</p>
             </div>
         </div>
     </div>

@@ -5,7 +5,7 @@
 layout: default-full
 title: "Home"
 show_sidetoc: true
-subtitle: "22-28 June 2025 Baratti – TUSCANY (Italy)"
+subtitle: "22-27 June 2025 – Baratti (Piombino) – TUSCANY (Italy)"
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/poggio.jpg
 header_title: "From Data to Social Innovation"
@@ -34,7 +34,6 @@ header_title: "From Data to Social Innovation"
                         <li>A restaurant that can accommodate menus for vegetarian, vegan, celiac and lactose-intolerant</li>
                         <li>Free charge for electric vehicles and solar panel system</li>
                     </ul>
-                <hr>
             </div>
         </div>
     </div>
@@ -70,12 +69,12 @@ header_title: "From Data to Social Innovation"
                 <h3>How to reach the venue</h3>
                     <p>
                     Poggio all’Agnello is a resort which is approximately one hour from Pisa Airport. From Pisa, the venue can be reached by car or by train, which stops in the nearby <a href="https://www.thetrainline.com/en/stations/populonia" target="_blank"> station of Populonia</a>.
-Once at the Populonia train station, the venue is 500 metres away  http://tinyurl.com/2x66rzn6
+Once at the Populonia train station, <a href="http://tinyurl.com/2x66rzn6"> venue is 500 metres away</a>
                     </p>
                     <ul>
-<li>BY PLANE: The nearest airports are Pisa or Rome. From there you have to take a train or rent a car.</li>
-<li>BY TRAIN: The nearest train station is “Populonia”. You can buy your ticket for the train directly at “Pisa Centrale” or “Roma Termini” stations (or book it on</li> www.trenitalia.com two month before, otherwise it is not available on the website). 
-<li>BY CAR: The address is “Loc. Poggio all’Agnello, 31 · 57025 Piombino (LI) Tuscany”</li>
+<li><i class="fas fa-plane"></i> BY PLANE: The nearest airports are Pisa or Rome. From there you have to take a train or rent a car.</li>
+<li><i class="fas fa-train"></i> BY TRAIN: The nearest train station is “Populonia”. You can buy your ticket for the train directly at “Pisa Centrale” or “Roma Termini” stations (or book it on</li> www.trenitalia.com two month before, otherwise it is not available on the website). 
+<li><i class="fas fa-car"></i> BY CAR: The address is “Loc. Poggio all’Agnello, 31 · 57025 Piombino (LI) Tuscany”</li>
                     </ul>
             </div>
         </div>
