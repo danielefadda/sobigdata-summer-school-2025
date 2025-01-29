@@ -5,7 +5,7 @@
 layout: default-full
 title: "Home"
 show_sidetoc: true
-subtitle: "22-27 June 2025 – Baratti (Piombino) – TUSCANY (Italy)"
+subtitle: "22-28 June 2025 – Baratti (Piombino) – TUSCANY (Italy)"
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/poggio.jpg
 header_title: "From Data to Social Innovation"

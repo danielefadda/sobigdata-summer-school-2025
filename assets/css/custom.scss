@@ -187,11 +187,11 @@ transform: rotate(180deg);
 // Backgound full width color:
 .bg-color-full {
   clip-path: inset(0 -100vmax);
-  box-shadow: 0 0 0 100vmax rgba(243, 173, 149, 0.3);
+  box-shadow: 0 0 0 100vmax #07286E;;
 }
 
 .bg-color {
-  background-color: rgba(243, 173, 149, 0.3);
+  background-color: #07286E;
 }
 
 // iframe :
@@ -315,7 +315,7 @@ h3 {
 // grid of logos
 .logo-grid {
     display: grid;
-    grid-template-columns: repeat(2, 200px); /* 6 columns with 150px width */
+    grid-template-columns:  repeat(3, auto);/* 6 columns with 150px width */
     gap: 10px; /* Adjust the gap between logos as needed */
     max-width: 1920px;
     margin: 0 auto;
