@@ -2,15 +2,29 @@
     <div class="row">
         <div class="col-md-12 col-sm-12">
             <div class="card-container">
-                {% for image in site.data.speaker-cards %}
-                <div class="card">
-                        <div class="card-img"><img src="{{ site.baseurl }}{{ image.img_url }}" class="card-img-top" alt="{{ image.name }}">
-                        </div>
+                {% assign cards = site.data[include.datasource] %}
+                {% for card in cards %}
+                    <div class="card">
+                        {% if card[include.url] %}
+                            <div class="card-img">
+                                <img
+                                    src="{{ site.baseurl }}{{ card[include.url] }}"
+                                    class="card-img-top"
+                                    alt="{{ card[include.name] | escape }}"
+                                >
+                            </div>
+                        {% endif %}
                         <div class="card-body">
-                            <h5 class="card-title"><strong>{{ image.name }}</strong></h5>
-                            <p class="card-text">{{ image.institution }}</p>
+                            {% if card[include.name] %}
+                                <h5 class="card-title">
+                                    <strong>{{ card[include.name] | escape }}</strong>
+                                </h5>
+                            {% endif %}
+                            {% if card[include.description] %}
+                                <p class="card-text">{{ card[include.description] | escape }}</p>
+                            {% endif %}
                         </div>
-                </div>
+                    </div>
                 {% endfor %}
             </div>
         </div>

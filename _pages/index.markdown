@@ -19,28 +19,35 @@ header_title: "From Data to Social Innovation"
     <div class="container">
         <div class="row pt-2">
             <div class="col-md-8 offset-md-2 col-sm-12">
-               <h3 class="mb-5">The Summer School aims to equip researchers, data scientists and social scientists with the methodologies and insights necessary to address complex societal challenges.</h3>
+               <h3>
+The Summer School aims to equip researchers, data scientists and social scientists with the methodologies and insights necessary to address complex societal challenges.
+</h3>
+                <p class="mt-3"><strong>The school is organised in four thematic days about the:</strong></p>
             </div>
         </div>
     </div>
 </div>
+<div class="container-fluid my-5">
+{% include img-gallery-cards.html 
+    datasource='days-description'
+    img_url='image'
+    name='day'
+    description='description'
+    container='fluid' 
+%}
+</div>
+
 
 <div class="introduction">
     <div class="container">
         <div class="row pt-2">
             <div class="col-md-8 offset-md-2 col-sm-12">
-                <p><strong>The school is organised in four thematic days about the:</strong></p>
-                <ul>
-<li>European research framework - helping the new generation of researchers in understanding the new directive and policies about data access and open science principles.</li>
-<li>Information Dynamics - methodologies to understand how (dis)information is generated, transferred, transformed, and utilized within a complex system over time.</li>
-<li>Politic Dynamics - a focus on the political discussion and the interactions between individuals, institutions, ideologies, and external factors that drive political opinion.</li> 
-<li>Social Dynamics - understanding behavioral patterns of society over time, how individuals and institutions influence each other, how social structures evolve, and how collective behaviors emerge.</li>
-                </ul>
                 <p>
-The Summer School provides a unique interdisciplinary mixture where participants can explore state-of-the-art tools in data analysis, machine learning, and artificial intelligence. The school will have lessons from experts during the morning and will leave the afternoon to group work guided by dedicated tutors helping them in defining and developing their project which will be evaluated at the end of the school by a panel of experts.
-                </p>
+                The Summer School provides a unique <strong>interdisciplinary mixture</strong> where participants can explore state-of-the-art tools in <strong>data analysis, machine learning, and artificial intelligence</strong>. The school will have lessons from experts during the morning and will leave the afternoon to <strong>group work guided by dedicated tutors</strong> helping them in defining and developing their project which will be evaluated at the end of the school by a panel of experts.</p>
                 <hr>
-<p>Expert-led lectures will guide attendees through real-world applications of big data and AI, fostering innovative solutions. Alongside technical skill-building, participants engage in ethical and governance discussions that highlight the responsible use of data.</p>
+                <p>
+                <strong>Expert-led lectures</strong> will guide attendees through real-world applications of big data and AI, fostering innovative solutions. Alongside technical skill-building, participants engage in <strong>ethical and governance discussions</strong> that highlight the responsible use of data.
+                </p>
             </div>
         </div>
     </div>
@@ -72,10 +79,10 @@ The Summer School provides a unique interdisciplinary mixture where participants
         <div class="col-md-6 col-sm-12">
             <h3>AIM OF THE SCHOOL</h3>
                 <p>
-                The Summer School aims to equip researchers, data scientists, and social scientists with an interdisciplinary understanding and skill set to address complex societal challenges. By blending technical training in data analysis, machine learning, and artificial intelligence with ethical, political, and social dynamics, the program empowers the students in facing today’s pressing societal challenges with a balanced approach that combines innovative data methodologies, stakeholder awareness, and a commitment to responsible, transparent practices.</p>
+                The Summer School aims to equip <strong>researchers, data scientists, and social scientists</strong> with an <strong>interdisciplinary understanding and skill set</strong> to address complex societal challenges. By blending <strong>technical training in data analysis, machine learning, and artificial intelligence</strong> with <strong>ethical, political, and social dynamics</strong>, the program empowers the students in facing today's pressing societal challenges with a balanced approach that combines <strong>innovative data methodologies, stakeholder awareness, and a commitment to responsible, transparent practices</strong>.
+                </p>
                 <p>
-                Over four themed days, participants first explore the new European research framework—covering directives, open science principles, and data-sharing policies. Next, they dive into Information Dynamics, examining how (dis)information is created, transferred, and transformed. The third focus, Political Dynamics, looks at how policy, ideology, institutions, and individuals shape discussions and social discourse. Finally, Social Dynamics reveals how communities and institutions influence each other, how societal structures evolve, and how collective behaviors emerge.
-                Expert-led lectures throughout the mornings expose participants to state-of-the-art methods and real-world case studies, highlighting best practices and contemporary applications of big data and AI. The afternoon sessions are dedicated to collaborative group projects, allowing students to actively engage in hands-on learning experiences. At the end of the week, a panel of experts in data mining and AI will evaluate the projects. This approach ensures a comprehensive and interactive learning environment allowing the participants to explore the ethical, legal, and practical dimensions of leveraging data for societal well-being.
+                    Over <strong>four themed days</strong>, participants first explore the <strong>new European research framework</strong>—covering directives, open science principles, and data-sharing policies. Next, they dive into <strong>Information Dynamics</strong>, examining how (dis)information is created, transferred, and transformed. The third focus, <strong>Political Dynamics</strong>, looks at how policy, ideology, institutions, and individuals shape discussions and social discourse. Finally, <strong>Social Dynamics</strong> reveals how communities and institutions influence each other, how societal structures evolve, and how collective behaviors emerge. <strong>Expert-led lectures</strong> throughout the mornings expose participants to state-of-the-art methods and real-world case studies, highlighting best practices and contemporary applications of big data and AI. The <strong>afternoon sessions</strong> are dedicated to <strong>collaborative group projects</strong>, allowing students to actively engage in hands-on learning experiences. At the end of the week, a <strong>panel of experts</strong> in data mining and AI will evaluate the projects. This approach ensures a comprehensive and interactive learning environment allowing the participants to explore the <strong>ethical, legal, and practical dimensions</strong> of leveraging data for societal well-being.
                 </p>
             </div>
             <div class="col-md-6 col-sm-12">
@@ -119,7 +126,13 @@ The Summer School provides a unique interdisciplinary mixture where participants
             </div>
         </div>
     </div>
-{% include img-gallery-cards.html  datasource=site.data.speaker-cards url='img_url' name='name' description='institution' container='fluid' %}
+{% include img-gallery-cards.html  
+    datasource='speaker-cards' 
+    url='img_url' 
+    name='name' 
+    description='institution' 
+    container='fluid' 
+%}
 </div>
 
 
