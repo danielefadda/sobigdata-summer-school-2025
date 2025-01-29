@@ -18,23 +18,23 @@ activities:
   monday:
     content: "<i class='fas fa-comments'></i> **Round of presentations** (Students)"
   tuesday:
-    content: "<i class='fas fa-comment'></i> **Giulio Rossetti** <br> Y-Social"
+    content: "<i class='fas fa-comment'></i> **Giulio Rossetti**"
     rowspan: 3
   wednesday:
-    content: "<i class='fas fa-comment'></i> **János Kertész**<br>???"
+    content: "<i class='fas fa-comment'></i> **János Kertész**"
     rowspan: 3
   thursday:
-    content: "<i class='fas fa-comment'></i> **Jussara Marques de Almeida**<br>???"
+    content: "<i class='fas fa-comment'></i> **Daniele Quercia**"
     rowspan: 3
   friday:
-    content: "<i class='fas fa-comment'></i> **Daniele Quercia**<br>???"
+    content: "<i class='fas fa-comment'></i> **Jussara Marques de Almeida**"
     rowspan: 3
 
 - time: "10:00 10:30"
   monday: "<i class='fas fa-comment'></i> **Michela Natilli**<br>SoBigData RI & School Introduction"
 
 - time: "10:30 11:00"
-  monday: "<i class='fas fa-comment'></i> **Roberta Savella**<br>Framework legale DSA DGA"
+  monday: "<i class='fas fa-comment'></i> **Roberta Savella**"
 
 - time: "11:00 11:30"
   monday: "<i class='fas fa-coffee'></i> Coffee Break"
@@ -45,17 +45,17 @@ activities:
   class: break
 
 - time: "11:30 12:30"
-  monday: "<i class='fas fa-comment'></i> **Tom Emery**<br>Open Science"
-  tuesday: "<i class='fas fa-comment'></i> **Chiara Boldrini**<br>(IMT)The role of social media in the spread of misinformation"
-  wednesday: "<i class='fas fa-comment'></i> **???**<br>???"
-  thursday: "<i class='fas fa-comment'></i> **Carlos Castillio**<br>discrimination"
-  friday: "<i class='fas fa-comments'></i> **Sudent presentation**<br>Katerina, Mark, Antinisca"
+  monday: "<i class='fas fa-comment'></i> **TBA**"
+  tuesday: "<i class='fas fa-comment'></i> **TBA**"
+  wednesday: "<i class='fas fa-comment'></i> **TBA**"
+  thursday: "<i class='fas fa-comment'></i> **TBA**"
+  friday: "<i class='fas fa-comments'></i> **Students presentation**"
 
 - time: "12:30 13:30"
-  monday: "<i class='fas fa-comment'></i> **Mark Coté**<br>Data Altruism: Data for Public Good"
-  tuesday: "<i class='fas fa-comment'></i> **???**<br>???"
-  wednesday: "<i class='fas fa-comment'></i> **Paulo Gerbaudo**<br>???"
-  thursday: "<i class='fas fa-comment'></i> **Luca Pappalardo**<br>Gentrification"
+  monday: "<i class='fas fa-comment'></i> **TBA**"
+  tuesday: "<i class='fas fa-comment'></i> **TBA**"
+  wednesday: "<i class='fas fa-comment'></i> **TBA**"
+  thursday: "<i class='fas fa-comment'></i> **TBA**"
 
 - time: "13:30 15:00"
   monday: "<i class='fas fa-cutlery'></i> Lunch Break"
@@ -92,3 +92,4 @@ activities:
   wednesday: "<i class='fas fa-cutlery'></i> Hotel Dinner"
   thursday: "<i class='fas  fa-handshake'></i> **Social Event**<br>Pizza and DJ set"
   friday: "<i class='fas fa-cutlery'></i> Hotel Dinner"
+  class: break

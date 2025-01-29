@@ -19,7 +19,9 @@ header_title: "From Data to Social Innovation"
             <div class="col-md-8 offset-md-2 col-sm-12">
                 <h2>Detailed Program</h2>
                 <hr>
-                <p>Qui ci va qualche nota importante che è bene che le persone leggano, considerando che è la pagina più usata, è una buona posizione da sfruttara</p>
+                <p class="lead">
+                    The school is organized in two parts: in the morning students will attend lectures with different speakers, while in the afternoon they will work on group projects guided by dedicated tutors.
+                </p>
                 <hr>
             </div>
         </div>

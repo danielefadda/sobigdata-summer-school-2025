@@ -18,22 +18,14 @@ header_title: "From Data to Social Innovation"
         <div class="row pt-2 ">
             <div class="col-md-8 offset-md-2 col-sm-12">
                 <h3>Registration for the SoBigData Summer School 2025</h3>
-                <p style="text-align:justify">There are <strong>different fees</strong> for different solutions: </p>
-                    <ul>
-                        <li><h5>Solution S1 – €1100 (single room)</h5></li>
-                        <li><h5>Solution S2 – €840 (double room)</h5></li>
-                        <li><h5>Solution S3 – €770 (triple room)</h5></li>
-                        <li><h5>Solution S4 – €740 (quadruple room)</h5></li>
-                        <li><h5>Solution S5 – €550 (no room)</h5></li>
-                    </ul>
-                <hr>
-                <p>These fees are valid until Tuesday <strong>30 April 2024 (early registration).</strong>
-                Registration costs €150 more between <strong>Wednesday 1 May 2024 and Friday 31 May 2024 (late registration).</strong></p>
+                <p class="lead">The cost of the summer school is <strong>750€</strong></p>
+                <p>The fee is valid until the <strong>30 April 2025 (early registration).</strong>
+                Registration costs <strong>€150</strong> more between <strong>1 May 2025 and 31 May 2025 (late registration).</strong></p>
                 <p>The registration fee comprises:</p>
                 <ul>
                     <li><strong>Attendance</strong> to all summer school talks and sessions</li>
                     <li><strong>Meals</strong> (breakfast, lunch, dinner), and coffee breaks for all the duration of the school</li>
-                    <li><strong>Lodging</strong> (Single – S1, Double – S2, Triple – S3, Quadruple – S4, no room required – S5)</li>
+                    <li><strong>Lodging</strong></li>
                     <li>Participation to <strong>three social events</strong></li>
                     <li><strong>Attendance certificate</strong></li>
                 </ul>
@@ -49,12 +41,7 @@ header_title: "From Data to Social Innovation"
         <div class="row pt-2 ">
             <div class="col-md-8 offset-md-2 col-sm-12">
                 <h3>Registration Process</h3>
-                <p>
-                    To register for the school please fill out <a href="">THIS FORM</a>
-                    </p>
-                    <p>including a <strong>letter of motivation</strong> describing the topic you’d like to work on while at the SoBigData Summer School.</p>
-                    <p>Once you have filled and successfully sent this form, you will be contacted by the Summer School’s organization to finalize the <strong>fee payment</strong>. You will be officially enrolled once <strong>your payment has been validated</strong> by the School’s administration.
-                    </p>
+                <p class="lead"><strong>Registration will open soon</strong></p>
             </div>
         </div>
     </div>

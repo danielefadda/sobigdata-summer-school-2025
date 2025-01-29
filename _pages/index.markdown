@@ -40,11 +40,11 @@ header_title: "From Data to Social Innovation"
             </div>
         <div class="col-md-6 col-sm-12">
             <h3>WHERE</h3>
-            <p class="lead">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="{{ site.baseurl }}{% link _pages/accomodation.markdown %}">Poggio all’Agnello </a> is a fully equipped resort that will host the 2025 edition of the SoBigData Summer school.
+            <p class="lead">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="{{ site.baseurl }}{% link _pages/venue.markdown %}">Poggio all’Agnello </a> is a fully equipped resort that will host the 2025 edition of the SoBigData Summer school.
             </p>
             <h3>Registration & Deadline</h3>
-            <p>Early registration until Tuesday 30 April 2025.</p>
-            <p><strong>Late registration between Wednesday 1 May 2024 and Friday 31 May 2024 will have an additional cost.</strong> There are different fee options, please see the <a href="{{ site.baseurl }}{% link _pages/registration.markdown %}">registration page</a> for details.</p>
+            <p>Early registration until 30 April 2025.</p>
+            <p><strong>Late registration between 1 May 2025 and 31 May 2025 will have an additional cost.</strong></p>
             </div>
         </div>
     </div>
@@ -67,7 +67,7 @@ header_title: "From Data to Social Innovation"
                     <li>Neural Networks</li>
                     <li>Machine Learning</li>
                     <li>Data Governance</li>
-                    <li>Health and Data</li>
+                    <li>Large Language Models</li>
                     <li>Sustainable Development</li>
                 </ul>
                 <h3>Target attendees</h3>
@@ -99,18 +99,6 @@ header_title: "From Data to Social Innovation"
                                     <h5>{{ speaker.name }} </h5>
                                     <p><em>{{ speaker.institution }}</em></p>
                                     <p><strong>{{ speaker.title }}</strong></p>
-                                    <p>{{ speaker.description }}</p>
-                                    {% assign topics = speaker.topics | split: "," %}
-                                    <p class="students">
-                                    <em><strong>Topic</strong>:
-                                        {% for topic in topics %}
-                                            {% if forloop.last %}
-                                                <span>{{ topic | strip |  replace: '[', ''  |  replace: ']', '' |  replace: '"', '' }}.</span>
-                                            {% else %}
-                                                <span>{{ topic | strip |  replace: '[', ''  |  replace: ']', '' |  replace: '"', '' }}, </span>
-                                            {% endif %}
-                                        {% endfor %}
-                                    </em></p>
                                 </div>
                             </div>
                     </div>

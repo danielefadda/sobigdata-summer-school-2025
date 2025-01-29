@@ -47,18 +47,12 @@ navbar:
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
-    - title: Schedule
-      child:
-      - title: Program
-        url: /schedule
-      - title: Social events
-        url: /social
+    - title: Program
+      url: /schedule
+    - title: Social events
+      url: /social
     - title: Venue
-      child:
-      - title: Venue
-        url: /venue
-      - title: Accomodation
-        url: /accomodation
+      url: /venue
     - title: Registration
       url: /registration
 

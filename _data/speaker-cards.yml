@@ -4,7 +4,7 @@
   description: "The talk will provide an overview of the main research directions in the field of complex network analysis, focusing on the modeling, characterization, and forecast of emerging (social) behaviors. The talk will also provide an overview of the main research directions in the field of complex network analysis, focusing on the modeling, characterization, and forecast of emerging (social) behaviors."
   topics: ["Topic 1","Topic 2","Topic 3","Topic 4","Topic 5"]
   home: true
-  title: "Title of the speech"
+  title: "Title of the speech TBA"
   bio: "Giulio Rossetti is a Senior Researcher at ISTI-CNR and External Professor at the University of Pisa. 
 He is also a member of the Knowledge Discovery and Data Mining Laboratory (KDD-lab), a joint research team that connects the Computer Science Department of the University of Pisa, the Institute of Information Science and Technologies of CNR, and the Scuola Normale Superiore.
 Within the lab, he coordinates the research activities on Complex Network Analysis.
@@ -41,6 +41,6 @@ His current research encompasses dynamics on and of complex networks, feature-ri
   description: "A description of the talk quiet long and detailed: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra augue dolor, quis commodo justo dignissim mollis. Cras risus dui, viverra at justo sit amet, bibendum venenatis urna. Etiam ligula mauris, pulvinar in leo nec, blandit fringilla magna. Donec bibendum feugiat est volutpat maximus."
   topics: ["Workload characterization and modeling","Performance modeling and analysis","Social computing and recommendation systems"]
   home: true
-  title: "Title of the speech"
+  title: "Title of the speech TBA"
   bio: "Jussara M. Almeida holds a PhD and an MSc degrees in Computer Science from the University of Wisconsin-Madison, USA (2003 and 1999, respectively), as well as a Master and Bachelor degrees also in Computer Science by the Universidade Federal de Minas Gerais (UFMG), Brazil (1997 and 1994, respectively). She is currently an Associate Professor in the Computer Science Department at UFMG as well as Affiliated Member of the Brazilian Academy of Sciences (2011-2015). Her research is focused around understanding how users interact with different applications, characterizing and modeling the workload patterns that emerge from such interactions, and exploiting those patterns to enhance current applications and services on the Web. She is particularly interested in characterizing and modeling user behavior in online social networks, and social computing in general."
   day: 4
