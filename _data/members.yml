@@ -1,5 +1,5 @@
-- name: Mark Cotè
-  github: https://www.kcl.ac.uk/people/mark-cote
+- name: Michela Natilli
+  github: https://kdd.isti.cnr.it/people/natilli-michela
   role: chair
   home: true
 - name: Roberto Trasarti
@@ -12,10 +12,6 @@
   home: true
 - name: Marco Braghieri
   github: https://www.kcl.ac.uk/people/marco-braghieri
-  role: organization
-  home: true
-- name: Michela Natilli
-  github: https://kdd.isti.cnr.it/people/natilli-michela
   role: organization
   home: true
 - name: Valerio Grossi
