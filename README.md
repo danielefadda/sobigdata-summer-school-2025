@@ -41,7 +41,7 @@ Una volta approvate le modifiche in certificazione, è possibile procedere con l
 
 2. Generare i file statici:
    ```bash
-   bundle exec jekyll build --config *config.yml,*config_dist.yml
+   bundle exec jekyll build --config _config.yml,_config_dist.yml
    ```
    I file verranno generati nella cartella `_site`
 
