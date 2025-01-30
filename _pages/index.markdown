@@ -168,7 +168,7 @@ The Summer School aims to equip researchers, data scientists and social scientis
 <div class="container py-5">
     <div class="row">
         <div class="col-md-12">
-            <img src="{{ site.baseurl }}/assets/images/sbd_it_footer.jpg" alt="SoBigDataFooter" class="full-width-image">
+            <img src="{{ site.baseurl }}/assets/images/sbd_it_footer@3x.png" alt="SoBigDataFooter" class="full-width-image">
         </div>
     </div>
 </div>
