@@ -48,13 +48,13 @@ navbar:
     url: /
   nav:
     - title: Program
-      url: /schedule
+      url: /schedule.html
     - title: Social events
-      url: /social
+      url: /social.html
     - title: Venue
-      url: /venue
+      url: /venue.html
     - title: Registration
-      url: /registration
+      url: /registration.html
 
 
 googlefonts:
@@ -97,11 +97,6 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-include-cache
-
-collections:
-  pages:
-    output: true
-    permalink: /:path
 
 footer:
   links:
@@ -148,6 +143,10 @@ url: "https://danielefadda.github.io"
 
 future: true
 
+collections:
+  pages:
+    output: true
+
 defaults:
   - scope:
       path: "assets/images/venue"
@@ -165,3 +164,9 @@ defaults:
       path: "assets/images/social"
     values:
       image_col: social
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      permalink: /:title.html

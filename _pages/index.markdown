@@ -12,7 +12,7 @@ header_title: "From Data to Social Innovation"
 ---
 
 <div class="full-width-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
+    <img src="{{ site.baseurl }}assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
 </div>
 
 <div class="introduction">
@@ -59,7 +59,7 @@ The Summer School aims to equip researchers, data scientists and social scientis
     <div class="container">
         <div class="row pt-2 ">
             <div class="col-md-6 col-sm-12">
-               <img src="{{ site.baseurl }}/assets/images/poggio-allagnello.jpeg" alt="Poggio all'Agnello">
+               <img src="{{ site.baseurl }}assets/images/poggio-allagnello.jpeg" alt="Poggio all'Agnello">
             </div>
         <div class="col-md-6 col-sm-12">
             <h3>WHERE</h3>
@@ -156,9 +156,9 @@ The Summer School aims to equip researchers, data scientists and social scientis
         <div class="col-md-12">
             <h5>This summer school is organized and supported by</h5>
         <div class="logo-grid">
-                    <img src="{{ site.baseurl }}/assets/images/Logo_SoBigData_RI_560_X_100.png" alt="SoBigData RI" >
-                    <img src="{{ site.baseurl }}/assets/images/Logo_SoBigData_ITA_560_X_100.png" alt="SoBigData it" >
-                    <img src="{{ site.baseurl }}/assets/images/fondazioneAREA.png" alt="Fondazione area" >
+                    <img src="{{ site.baseurl }}assets/images/Logo_SoBigData_RI_560_X_100.png" alt="SoBigData RI" >
+                    <img src="{{ site.baseurl }}assets/images/Logo_SoBigData_ITA_560_X_100.png" alt="SoBigData it" >
+                    <img src="{{ site.baseurl }}assets/images/fondazioneAREA.png" alt="Fondazione area" >
         </div>
         </div>
     </div>
@@ -168,7 +168,7 @@ The Summer School aims to equip researchers, data scientists and social scientis
 <div class="container py-5">
     <div class="row">
         <div class="col-md-12">
-            <img src="{{ site.baseurl }}/assets/images/sbd_it_footer@3x.png" alt="SoBigDataFooter" class="full-width-image">
+            <img src="{{ site.baseurl }}assets/images/sbd_it_footer@3x.png" alt="SoBigDataFooter" class="full-width-image">
         </div>
     </div>
 </div>
