@@ -49,13 +49,13 @@ navbar:
     url: /
   nav:
     - title: Program
-      url: /schedule
+      url: /schedule.html
     - title: Social events
-      url: /social
+      url: /social.html
     - title: Venue
-      url: /venue
+      url: /venue.html
     - title: Registration
-      url: /registration
+      url: /registration.html
 
 
 googlefonts:
