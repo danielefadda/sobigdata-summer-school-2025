@@ -25,7 +25,7 @@ header_title: "From Data to Social Innovation"
                     <ul>
                         <li>A welcome cocktail on Sunday evening 16 June 2024</li>
 <li>Visit to the award-winning <a href="https://www.petrawine.it/en/home-english/" target="_blank"> Petra Winery</a>: a guided tour of the vineyards and the winery designed by architect Mario Botta and a dinner with wine tasting.</li>
-<li>Visit to the marine protected and <a href="https://www.parchivaldicornia.it/en/archaeological-parks/archaeological-park-of-baratti-and-populonia/" target="_blank"> archaeological area of Baratti-Populonia</a>. Sunset from the scenic town centre of Populonia</li>
+<li>Visit to the marine protected and <a href="https://www.parchivaldicornia.it/en/archaeological-parks/archaeological-park-of-baratti-and-populonia/" target="_blank"> archaeological area of Baratti-Populonia</a>.</li>
 <li>A dj-set night with pizza to celebrate the end of the school in an informal setting within the Poggio all’Agnello venue</li>
                     </ul>
             </div>
