@@ -165,3 +165,7 @@ defaults:
       path: "assets/images/social"
     values:
       image_col: social
+  - scope:
+      path: ""
+    values:
+      sitemap: false
