@@ -295,7 +295,20 @@ h3 {
     border-collapse: collapse;
     font-size: small;
     border: 1px solid #f2f2f2;
+    table-layout: fixed;
 }
+
+
+.program-table th:first-child,
+.program-table td:first-child {
+  width: 10%;
+}
+
+.program-table th:not(:first-child),
+.program-table td:not(:first-child) {
+  width: 15%;
+}
+
 
 .program-table th {
     vertical-align: top;
@@ -310,6 +323,14 @@ h3 {
 
 .program-table .break {
     background-color: #f2f2f2;
+}
+
+/* Stili aggiuntivi per un migliore rendering */
+.program-table th,
+.program-table td {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  padding: 8px;
 }
 
 // grid of logos

@@ -9,87 +9,166 @@ headers:
 
 activities:
 - time: "09:00 09:30"
-  monday: "<i class='fas fa-id-card'></i> **Registration**"
+  monday:
+    icon: "id-card"
+    text: "**Registration**"
 
 - time: "09:30 10:00"
   sunday:
-    content: "<i class='fas fa-comments'></i> **Meeting with Tutors**"
+    content:
+      icon: "comments"
+      text: "**Meeting with Tutors**"
     rowspan: 8
   monday:
-    content: "<i class='fas fa-comments'></i> **Round of presentations** (Students)"
+    icon: "comments"
+    text: "**Round of presentations** (Students)"
   tuesday:
-    content: "<i class='fas fa-comment'></i> **Giulio Rossetti**"
+    content:
+      icon: "comment"
+      text: "**Giulio Rossetti**"
     rowspan: 3
   wednesday:
-    content: "<i class='fas fa-comment'></i> **János Kertész**"
+    content:
+      icon: "comment"
+      text: "**János Kertész**"
     rowspan: 3
   thursday:
-    content: "<i class='fas fa-comment'></i> **Daniele Quercia**"
+    content:
+      icon: "comment"
+      text: "**Daniele Quercia**"
     rowspan: 3
   friday:
-    content: "<i class='fas fa-comment'></i> **Jussara Marques de Almeida**"
+    content:
+      icon: "comment"
+      text: "**Jussara Marques de Almeida**"
     rowspan: 3
 
 - time: "10:00 10:30"
-  monday: "<i class='fas fa-comment'></i> **Michela Natilli**<br>SoBigData RI & School Introduction"
+  monday:
+    icon: "comment"
+    text: "**Michela Natilli**<br>SoBigData RI & School Introduction"
 
 - time: "10:30 11:00"
-  monday: "<i class='fas fa-comment'></i> **Roberta Savella**"
+  monday:
+    icon: "comment"
+    text: "**Roberta Savella**"
 
 - time: "11:00 11:30"
-  monday: "<i class='fas fa-coffee'></i> Coffee Break"
-  tuesday: "<i class='fas fa-coffee'></i> Coffee Break"
-  wednesday: "<i class='fas fa-coffee'></i> Coffee Break"
-  thursday: "<i class='fas fa-coffee'></i> Coffee Break"
-  friday: "<i class='fas fa-coffee'></i> Coffee Break"
+  monday:
+    icon: "coffee"
+    text: "Coffee Break"
+  tuesday:
+    icon: "coffee"
+    text: "Coffee Break"
+  wednesday:
+    icon: "coffee"
+    text: "Coffee Break"
+  thursday:
+    icon: "coffee"
+    text: "Coffee Break"
+  friday:
+    icon: "coffee"
+    text: "Coffee Break"
   class: break
 
 - time: "11:30 12:30"
-  monday: "<i class='fas fa-comment'></i> **TBA**"
-  tuesday: "<i class='fas fa-comment'></i> **TBA**"
-  wednesday: "<i class='fas fa-comment'></i> **TBA**"
-  thursday: "<i class='fas fa-comment'></i> **TBA**"
-  friday: "<i class='fas fa-comments'></i> **Students presentation**"
+  monday:
+    icon: "comment"
+    text: "**TBA**"
+  tuesday:
+    icon: "comment"
+    text: "**TBA**"
+  wednesday:
+    icon: "comment"
+    text: "**TBA**"
+  thursday:
+    icon: "comment"
+    text: "**TBA**"
+  friday:
+    icon: "comments"
+    text: "**Students presentation**"
 
 - time: "12:30 13:30"
-  monday: "<i class='fas fa-comment'></i> **TBA**"
-  tuesday: "<i class='fas fa-comment'></i> **TBA**"
-  wednesday: "<i class='fas fa-comment'></i> **TBA**"
-  thursday: "<i class='fas fa-comment'></i> **TBA**"
+  monday:
+    icon: "comment"
+    text: "**TBA**"
+  tuesday:
+    icon: "comment"
+    text: "**TBA**"
+  wednesday:
+    icon: "comment"
+    text: "**TBA**"
+  thursday:
+    icon: "comment"
+    text: "**TBA**"
 
 - time: "13:30 15:00"
-  monday: "<i class='fas fa-cutlery'></i> Lunch Break"
-  tuesday: "<i class='fas fa-cutlery'></i> Lunch Break"
-  wednesday: "<i class='fas fa-cutlery'></i> Lunch Break"
-  thursday: "<i class='fas fa-cutlery'></i> Lunch Break"
-  friday: "<i class='fas fa-cutlery'></i> Lunch Break"
+  monday:
+    icon: "cutlery"
+    text: "Lunch Break"
+  tuesday:
+    icon: "cutlery"
+    text: "Lunch Break"
+  wednesday:
+    icon: "cutlery"
+    text: "Lunch Break"
+  thursday:
+    icon: "cutlery"
+    text: "Lunch Break"
+  friday:
+    icon: "cutlery"
+    text: "Lunch Break"
   class: break
 
 - time: "15:00 18:00"
   monday:
-    content: "<i class='fas  fa-laptop'></i> **Student Projects <br>Development**"
+    content:
+      icon: "laptop"
+      text: "**Student Projects <br>Development**"
     rowspan: 2
   tuesday:
-    content: "<i class='fas  fa-laptop'></i> **Student Projects <br>Development**"
+    content:
+      icon: "laptop"
+      text: "**Student Projects <br>Development**"
     rowspan: 2
   wednesday:
-    content: "<i class='fas  fa-handshake'></i> **Social Event**<br>trip to Populonia"
+    content:
+      icon: "handshake"
+      text: "**Social Event**<br>trip to Populonia"
     rowspan: 2
   thursday:
-    content: "<i class='fas  fa-laptop'></i> **Student Projects <br>Development**"
+    content:
+      icon: "laptop"
+      text: "**Student Projects <br>Development**"
     rowspan: 2
   friday:
-    content: "<i class='fas fa-comment'></i> Open discussion for follow-up activities"
+    content:
+      icon: "comment"
+      text: "Open discussion for follow-up activities"
     rowspan: 2
 
 - time: "18:00"
-  sunday: "<i class='fas  fa-handshake'></i> Welcome Cocktail"
+  sunday:
+    icon: "handshake"
+    text: "Welcome Cocktail"
 
 - time: "20:00"
-  sunday: "<i class='fas fa-cutlery'></i> Hotel Dinner"
-  monday: "<i class='fas fa-cutlery'></i> Hotel Dinner"
-  tuesday: "<i class='fas  fa-handshake'></i> **Social Event**<br>Winery visit and social dinner"
-  wednesday: "<i class='fas fa-cutlery'></i> Hotel Dinner"
-  thursday: "<i class='fas  fa-handshake'></i> **Social Event**<br>Pizza and DJ set"
-  friday: "<i class='fas fa-cutlery'></i> Hotel Dinner"
+  sunday:
+    icon: "cutlery"
+    text: "Hotel Dinner"
+  monday:
+    icon: "cutlery"
+    text: "Hotel Dinner"
+  tuesday:
+    icon: "handshake"
+    text: "**Social Event**<br>Winery visit and social dinner"
+  wednesday:
+    icon: "cutlery"
+    text: "Hotel Dinner"
+  thursday:
+    icon: "handshake"
+    text: "**Social Event**<br>Pizza and DJ set"
+  friday:
+    icon: "cutlery"
+    text: "Hotel Dinner"
   class: break
