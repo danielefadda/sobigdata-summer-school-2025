@@ -126,7 +126,7 @@ The Summer School aims to equip researchers, data scientists and social scientis
             </div>
         </div>
     </div>
-{% include img-gallery-cards.html  
+{% include img-home-cards.html  
     datasource='speaker-cards' 
     url='img_url' 
     name='name' 
