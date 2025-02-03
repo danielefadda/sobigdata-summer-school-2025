@@ -56,19 +56,19 @@ activities:
 - time: "11:00 11:30"
   monday:
     icon: "coffee"
-    text: "Coffee Break"
+    text: "**Coffee Break**"
   tuesday:
     icon: "coffee"
-    text: "Coffee Break"
+    text: "**Coffee Break**"
   wednesday:
     icon: "coffee"
-    text: "Coffee Break"
+    text: "**Coffee Break**"
   thursday:
     icon: "coffee"
-    text: "Coffee Break"
+    text: "**Coffee Break**"
   friday:
     icon: "coffee"
-    text: "Coffee Break"
+    text: "**Coffee Break**"
   class: break
 
 - time: "11:30 12:30"
@@ -91,7 +91,7 @@ activities:
 - time: "12:30 13:30"
   monday:
     icon: "comment"
-    text: "**TBA**"
+    text: "**Marc Coté**<br>Data Altruism"
   tuesday:
     icon: "comment"
     text: "**TBA**"
@@ -100,24 +100,24 @@ activities:
     text: "**TBA**"
   thursday:
     icon: "comment"
-    text: "**TBA**"
+    text: "**Luca Pappalardo**<br>Human-AI Coevolution"
 
 - time: "13:30 15:00"
   monday:
     icon: "cutlery"
-    text: "Lunch Break"
+    text: "**Lunch Breakr**"
   tuesday:
     icon: "cutlery"
-    text: "Lunch Break"
+    text: "**Lunch Breakr**"
   wednesday:
     icon: "cutlery"
-    text: "Lunch Break"
+    text: "**Lunch Breakr**"
   thursday:
     icon: "cutlery"
-    text: "Lunch Break"
+    text: "**Lunch Breakr**"
   friday:
     icon: "cutlery"
-    text: "Lunch Break"
+    text: "**Lunch Breakr**"
   class: break
 
 - time: "15:00 18:00"
@@ -144,31 +144,31 @@ activities:
   friday:
     content:
       icon: "comment"
-      text: "Open discussion for follow-up activities"
+      text: "**Open discussion** for follow-up activities"
     rowspan: 2
 
 - time: "18:00"
   sunday:
     icon: "handshake"
-    text: "Welcome Cocktail"
+    text: "**Welcome Cockatil**"
 
 - time: "20:00"
   sunday:
     icon: "cutlery"
-    text: "Hotel Dinner"
+    text: "**Hotel Dinner**"
   monday:
     icon: "cutlery"
-    text: "Hotel Dinner"
+    text: "**Hotel Dinner**"
   tuesday:
     icon: "handshake"
     text: "**Social Event**<br>Winery visit and social dinner"
   wednesday:
     icon: "cutlery"
-    text: "Hotel Dinner"
+    text: "**Hotel Dinner**"
   thursday:
     icon: "handshake"
     text: "**Social Event**<br>Pizza and DJ set"
   friday:
     icon: "cutlery"
-    text: "Hotel Dinner"
+    text: "**Hotel Dinner**"
   class: break
