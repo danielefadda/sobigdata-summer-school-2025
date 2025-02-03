@@ -105,19 +105,19 @@ activities:
 - time: "13:30 15:00"
   monday:
     icon: "cutlery"
-    text: "**Lunch Breakr**"
+    text: "**Lunch Break**"
   tuesday:
     icon: "cutlery"
-    text: "**Lunch Breakr**"
+    text: "**Lunch Break**"
   wednesday:
     icon: "cutlery"
-    text: "**Lunch Breakr**"
+    text: "**Lunch Break**"
   thursday:
     icon: "cutlery"
-    text: "**Lunch Breakr**"
+    text: "**Lunch Break**"
   friday:
     icon: "cutlery"
-    text: "**Lunch Breakr**"
+    text: "**Lunch Break**"
   class: break
 
 - time: "15:00 18:00"
