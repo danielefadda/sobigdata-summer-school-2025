@@ -97,7 +97,7 @@ activities:
     text: "**TBA**"
   wednesday:
     icon: "comment"
-    text: "**TBA**"
+    text: "**Paolo Gerbaudo**<br>Making Sense of Affective Big Data: Sentiment Analysis and the Data Science of <em>Mass Online Conversations</em>"
   thursday:
     icon: "comment"
     text: "**Luca Pappalardo**<br>Human-AI Coevolution"
