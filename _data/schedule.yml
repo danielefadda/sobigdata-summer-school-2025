@@ -9,19 +9,48 @@ headers:
 
 activities:
 - time: "09:00 09:30"
+  sunday:
+    content:
+      icon: "id-card"
+      text: "**Registration**"
+    rowspan: 1
   monday:
-    icon: "id-card"
-    text: "**Registration**"
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
+  thursday:
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
+  wednesday:
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
+  tuesday:
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
+  friday:
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
 
 - time: "09:30 10:00"
   sunday:
     content:
       icon: "comments"
       text: "**Meeting with Tutors**"
-    rowspan: 8
+    rowspan: 10
   monday:
-    icon: "comments"
-    text: "**Round of presentations** (Students)"
+    content:
+      icon: "comments"
+      text: "**Round of presentations** (Students)"
+    rowspan: 1
   tuesday:
     content:
       icon: "comment"
@@ -45,130 +74,236 @@ activities:
 
 - time: "10:00 10:30"
   monday:
-    icon: "comment"
-    text: "**Michela Natilli**<br>SoBigData RI & School Introduction"
+    content:
+      icon: "comment"
+      text: "**Michela Natilli**<br>SoBigData RI & School Introduction"
+    rowspan: 1
 
 - time: "10:30 11:00"
   monday:
-    icon: "comment"
-    text: "**Roberta Savella**"
+    content:
+      icon: "comment"
+      text: "**Roberta Savella**"
+    rowspan: 1
 
 - time: "11:00 11:30"
   monday:
-    icon: "coffee"
-    text: "**Coffee Break**"
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
   tuesday:
-    icon: "coffee"
-    text: "**Coffee Break**"
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
   wednesday:
-    icon: "coffee"
-    text: "**Coffee Break**"
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
   thursday:
-    icon: "coffee"
-    text: "**Coffee Break**"
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
   friday:
-    icon: "coffee"
-    text: "**Coffee Break**"
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
   class: break
 
 - time: "11:30 12:30"
   monday:
-    icon: "comment"
-    text: "**TBA**"
+    content:
+      icon: "comment"
+      text: "**TBA**"
+    rowspan: 1
   tuesday:
-    icon: "comment"
-    text: "**Fabiana Zollo**"
+    content:
+      icon: "comment"
+      text: "**Fabiana Zollo**"
+    rowspan: 1
   wednesday:
-    icon: "comment"
-    text: "**TBA**"
+    content:
+      icon: "comment"
+      text: "**TBA**"
+    rowspan: 1
   thursday:
-    icon: "comment"
-    text: "**TBA**"
+    content:
+      icon: "comment"
+      text: "**TBA**"
+    rowspan: 1
   friday:
-    icon: "comments"
-    text: "**Students presentation**"
+    content:
+      icon: "comments"
+      text: "**Students presentation**<br>"
+    rowspan: 2
 
 - time: "12:30 13:30"
   monday:
-    icon: "comment"
-    text: "**Marc Coté**<br>Data Altruism"
+    content:
+      icon: "comment"
+      text: "**Marc Coté**<br>Data Altruism"
+    rowspan: 1
   tuesday:
-    icon: "comment"
-    text: "**TBA**"
+    content:
+      icon: "comment"
+      text: "**TBA**"
+    rowspan: 1
   wednesday:
-    icon: "comment"
-    text: "**Paolo Gerbaudo**<br>Making Sense of Affective Big Data: Sentiment Analysis and the Data Science of <em>Mass Online Conversations</em>"
+    content:
+      icon: "comment"
+      text: "**Paolo Gerbaudo**<br>Making Sense of Affective Big Data: Sentiment Analysis and the Data Science of <em>Mass Online Conversations</em>"
+    rowspan: 1
   thursday:
-    icon: "comment"
-    text: "**Luca Pappalardo**<br>Human-AI Coevolution"
+    content:
+      icon: "comment"
+      text: "**Luca Pappalardo**<br>Human-AI Coevolution"
+    rowspan: 1
 
 - time: "13:30 15:00"
   monday:
-    icon: "cutlery"
-    text: "**Lunch Break**"
+    content:
+      icon: "cutlery"
+      text: "**Lunch Break**"
+    rowspan: 1
   tuesday:
-    icon: "cutlery"
-    text: "**Lunch Break**"
+    content:
+      icon: "cutlery"
+      text: "**Lunch Break**"
+    rowspan: 1
   wednesday:
-    icon: "cutlery"
-    text: "**Lunch Break**"
+    content:
+      icon: "cutlery"
+      text: "**Lunch Break**"
+    rowspan: 1
   thursday:
-    icon: "cutlery"
-    text: "**Lunch Break**"
+    content:
+      icon: "cutlery"
+      text: "**Lunch Break**"
+    rowspan: 1
   friday:
-    icon: "cutlery"
-    text: "**Lunch Break**"
+    content:
+      icon: "cutlery"
+      text: "**Lunch Break**"
+    rowspan: 1
   class: break
 
-- time: "15:00 18:00"
+- time: "15:00 16:00"
   monday:
     content:
       icon: "laptop"
       text: "**Student Projects <br>Development**"
-    rowspan: 2
+    rowspan: 1
   tuesday:
     content:
       icon: "laptop"
       text: "**Student Projects <br>Development**"
-    rowspan: 2
+    rowspan: 1
   wednesday:
     content:
       icon: "handshake"
       text: "**Social Event**<br>trip to Populonia"
-    rowspan: 2
+    rowspan: 4
   thursday:
     content:
       icon: "laptop"
       text: "**Student Projects <br>Development**"
-    rowspan: 2
+    rowspan: 1
   friday:
     content:
       icon: "comment"
       text: "**Open discussion** for follow-up activities"
-    rowspan: 2
+    rowspan: 3
 
-- time: "18:00"
+- time: "16:00 16:30"
+  monday:
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
+  tuesday:
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
+  thursday:
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
+  class: break
+
+- time: "16:30 18:00"
+  monday:
+    content:
+      icon: "laptop"
+      text: "**Student Projects <br>Development**"
+    rowspan: 1
+  tuesday:
+    content:
+      icon: "laptop"
+      text: "**Student Projects <br>Development**"
+    rowspan: 1
+  thursday:
+    content:
+      icon: "laptop"
+      text: "**Student Projects <br>Development**"
+    rowspan: 1
+
+- time: "18:00 19:00"
   sunday:
-    icon: "handshake"
-    text: "**Welcome Cockatil**"
+    content:
+      icon: "handshake"
+      text: "**Welcome Cockatil**"
+    rowspan: 1
+  monday:
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
+  tuesday:
+    content:
+      icon: "handshake"
+      text: "**Social Event**<br>Winery visit and social dinner"
+    rowspan: 2
+  wednesday:
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
+  thursday:
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
 
 - time: "20:00"
   sunday:
-    icon: "cutlery"
-    text: "**Hotel Dinner**"
+    content:
+      icon: "cutlery"
+      text: "**Hotel Dinner**"
+    rowspan: 1
   monday:
-    icon: "cutlery"
-    text: "**Hotel Dinner**"
-  tuesday:
-    icon: "handshake"
-    text: "**Social Event**<br>Winery visit and social dinner"
+    content:
+      icon: "cutlery"
+      text: "**Tuscan Dinner**"
+    rowspan: 1
   wednesday:
-    icon: "cutlery"
-    text: "**Hotel Dinner**"
+    content:
+      icon: "cutlery"
+      text: "**Hotel Dinner**"
+    rowspan: 1
   thursday:
-    icon: "handshake"
-    text: "**Social Event**<br>Pizza and DJ set"
+    content:
+      icon: "handshake"
+      text: "**Social Event**<br>Pizza and DJ set"
+    rowspan: 1
   friday:
-    icon: "cutlery"
-    text: "**Hotel Dinner**"
+    content:
+      icon: "cutlery"
+      text: "**Hotel Dinner**"
+    rowspan: 1
   class: break
