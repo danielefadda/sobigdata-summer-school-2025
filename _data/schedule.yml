@@ -118,7 +118,7 @@ activities:
   monday:
     content:
       icon: "comment"
-      text: "**TBA**"
+      text: "**Juan Duran**<br>On the Ethics and Epistemology of Data Science: Mapping the Debate"
     rowspan: 1
   tuesday:
     content:
@@ -133,7 +133,7 @@ activities:
   thursday:
     content:
       icon: "comment"
-      text: "**TBA**"
+      text: "**Michele Starnini**"
     rowspan: 1
   friday:
     content:
@@ -150,7 +150,7 @@ activities:
   tuesday:
     content:
       icon: "comment"
-      text: "**TBA**"
+      text: "**Salvatore Rinzivillo**"
     rowspan: 1
   wednesday:
     content:

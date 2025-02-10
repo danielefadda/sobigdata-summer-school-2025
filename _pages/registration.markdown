@@ -25,7 +25,7 @@ header_title: "From Data to Social Innovation"
                 <ul>
                     <li><strong>Attendance</strong> to all summer school talks and sessions</li>
                     <li><strong>Meals</strong> (breakfast, lunch, dinner), and coffee breaks for all the duration of the school</li>
-                    <li><strong>Lodging</strong></li>
+                    <li><strong>Lodging (3-4 persons per apartment)</strong></li>
                     <li>Participation to <strong>three social events</strong></li>
                     <li><strong>Attendance certificate</strong></li>
                 </ul>
