@@ -98,3 +98,18 @@ His current research encompasses dynamics on and of complex networks, feature-ri
   title: 'On the Ethics and Epistemology of Data Science: Mapping the Debate'
   bio: "Juan M. Durán is an Assistant Professor at TU Delft, specializing in the ethics and epistemology of data and algorithms. His research explores the societal impact of computational systems, emphasizing their ethical challenges and epistemic foundations. He is the recipient of the prestigious Herbert A. Simon Award, which honors scholars advancing the intersection of philosophy of science, ethics, and algorithms. Beyond academia, he is the proud father of Diego—unofficially named after the greatest footballer of all time."
   day: 2
+- name: "Roberta Savella"
+  surname: "Savella"
+  institution: "Institute of Information Science and Technologies (ISTI) of the National Research Council of Italy (CNR)"
+  img_url:  "/assets/images/speaker_Savella.jpg"
+  description: "Thanks to the Digital Services Act (DSA), researchers now have a very powerful tool to investigate and find remedies for the systemic risks posed by Very Large Online Platforms and Very Large Search Engines in the European Union. This Regulation will foster research to detect and prevent the diffusion of illegal content but also risks to fundamental rights, democratic processes, and people’s physical and mental
+well-being, just to name a few. In this talk, we will explore the mechanisms that the DSA provides for researchers to have access to data
+from Big Tech companies, understand who can deploy these tools and how access can be requested, and discuss the related opportunities and
+challenges."
+  topics: ["Digital Services Act", "Data Protection", "AI Regulation"]
+  home: false
+  title: 'On the Ethics and Epistemology of Data Science: Mapping the Debate'
+  bio: "Roberta Savella is a Research Fellow at Istituto di Scienza e Tecnologie dell’Informazione (ISTI) of the Italian National Research Council. She graduated in law at University of Pisa in 2020, and her areas of interest are data protection and new technologies law, with a focus on
+the European Digital Strategy and the legal and ethical issues related to Artificial Intelligence. She is co-author of the SoBigData Academy
+Course “Legal and Ethical aspects of Data Science” and author of the recurring column “So Big Laws – A Legal Guide to the Big Data Galaxy” of the SoBigData Magazine. She has also contributed to several online training courses and books on data protection."
+  day: 2
