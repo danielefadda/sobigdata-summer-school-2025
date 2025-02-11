@@ -63,7 +63,7 @@ The Summer School aims to equip researchers, data scientists and social scientis
             </div>
         <div class="col-md-6 col-sm-12">
             <h3>WHERE</h3>
-            <p class="lead">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="{{ site.baseurl }}{% link _pages/venue.markdown %}">Poggio all’Agnello </a> is a fully equipped resort that will host the 2025 edition of the SoBigData Summer school.
+            <p class="lead">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="{{ site.baseurl }}{% link _pages/venue.markdown %}.html">Poggio all’Agnello </a> is a fully equipped resort that will host the 2025 edition of the SoBigData Summer school.
             </p>
             <h3>Registration & Deadline</h3>
             <p>Early registration until 30 April 2025.</p>
@@ -141,7 +141,7 @@ The Summer School aims to equip researchers, data scientists and social scientis
             <div class="col-md-12">
                 <div>
                     <h3>Interested in attending?</h3>
-                    <a href="{{site.baseurl}}{% link _pages/registration.markdown %}" class="btn btn-primary">Register now</a>
+                    <a href="{{site.baseurl}}{% link _pages/registration.markdown %}.html" class="btn btn-primary">Register now</a>
                 </div>
             </div>
         </div>
