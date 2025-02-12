@@ -113,3 +113,13 @@ challenges."
 the European Digital Strategy and the legal and ethical issues related to Artificial Intelligence. She is co-author of the SoBigData Academy
 Course “Legal and Ethical aspects of Data Science” and author of the recurring column “So Big Laws – A Legal Guide to the Big Data Galaxy” of the SoBigData Magazine. She has also contributed to several online training courses and books on data protection."
   day: 2
+- name: "Salvo Rinzivillo"
+  surname: "Rinzivillo"
+  institution: "Institute of Information Science and Technologies (ISTI) of the National Research Council of Italy (CNR)"
+  img_url:  "/assets/images/speaker_Rinzivillo.jpg"
+  description: "This talk introduces the concept of 'XUI' or eXplainable User Interfaces, focusing on methods for enhancing explainability with UI design to improve decision-making processes. The talk will explore how XUI can be achieved through conversational interfaces, visual interactions that progressively reveal information, and progressive disclosure strategies. Use cases demonstrating these concepts in practice will illustrate how they are applied in real-world scenarios to enhance user trust and satisfaction. By the end of this presentation, attendees will gain insights into the importance of UI design for explainability and pointers to practical tools for implementing it within their own research."
+  topics: ["XUI", "XAI","Explainable User Interfaces", "UI Design"]
+  home: false
+  title: 'Introducing XUI: Enhancing Model Reliability through eXplainable User Interfaces'
+  bio: "SR is a computer scientist, specialized in AI and machine learning, particularly focusing on enhancing explainability within these fields to foster trust and reliability. With a keen interest in visual representations of data, he bridges the gap between technology and understanding, making complex concepts accessible to all audiences. Beyond his professional pursuits, his background as a maker drives him to continually explore new possibilities and push boundaries in creative problem-solving."
+  day: 2

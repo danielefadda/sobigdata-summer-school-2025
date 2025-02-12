@@ -150,7 +150,7 @@ activities:
   tuesday:
     content:
       icon: "comment"
-      text: "**Salvatore Rinzivillo**"
+      text: "**Salvatore Rinzivillo**<br>Introducing XUI: Enhancing Model Reliability through eXplainable User Interfaces"
     rowspan: 1
   wednesday:
     content:
