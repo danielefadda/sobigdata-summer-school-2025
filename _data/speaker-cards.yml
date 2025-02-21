@@ -123,3 +123,14 @@ Course “Legal and Ethical aspects of Data Science” and author of the recurri
   title: 'Introducing XUI: Enhancing Model Reliability through eXplainable User Interfaces'
   bio: "SR is a computer scientist, specialized in AI and machine learning, particularly focusing on enhancing explainability within these fields to foster trust and reliability. With a keen interest in visual representations of data, he bridges the gap between technology and understanding, making complex concepts accessible to all audiences. Beyond his professional pursuits, his background as a maker drives him to continually explore new possibilities and push boundaries in creative problem-solving."
   day: 2
+- name: "Michele Starnini"
+  surname: "Starnini"
+  institution: "Universitat Pompeu Fabra"
+  img_url:  "/assets/images/speaker_Starnini.jpg"
+  description: "In this talk, we will quantify three key phenomena of ideological radicalization commonly observed on online social media: the emergence of ideological echo chambers, the spread of harmful misinformation, and the migration of radicalized user groups across platforms. Online social media often limits exposure to diverse perspectives, fostering the formation of like-minded groups that frame and reinforce shared narratives—commonly referred to as echo chambers. This dynamic encourages the growth of active communities centered on conspiracy theories, frequently propagating misinformation about controversial topics. These radicalized communities often demonstrate resilience to bans from mainstream platforms by migrating to niche or fringe social media, where they rebuild and sustain their social structure."
+  topics: ["Echo-chambers", "Misinformation spreading", "Platform migration"]
+  home: false
+  title: 'Ideological radicalization on social media: Echo-chambers, misinformation spreading, and platform migration.'
+  bio: "Michele Starnini is currently a Ramon y Cajal fellow at the Universitat Pompeu Fabra. He authored more than 45 papers in physics, sociological, biological, and computer science journals, collecting more than 4900 citations. He has led several national, European, and extra-European research projects. He is a researcher in complex systems, networks, and computational social sciences. His work focuses on understanding emergent socio-economic phenomena, such as the spread of behaviors or ideas within populations, the dynamics of social interactions, and cooperation among individuals."
+  day: 5
+
