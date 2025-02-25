@@ -145,7 +145,7 @@ activities:
   monday:
     content:
       icon: "comment"
-      text: "**Marc Coté**<br>Data Altruism"
+      text: "**Mark Coté**<br>Data Altruism"
     rowspan: 1
   tuesday:
     content:
