@@ -133,4 +133,14 @@ Course “Legal and Ethical aspects of Data Science” and author of the recurri
   title: 'Ideological radicalization on social media: Echo-chambers, misinformation spreading, and platform migration.'
   bio: "Michele Starnini is currently a Ramon y Cajal fellow at the Universitat Pompeu Fabra. He authored more than 45 papers in physics, sociological, biological, and computer science journals, collecting more than 4900 citations. He has led several national, European, and extra-European research projects. He is a researcher in complex systems, networks, and computational social sciences. His work focuses on understanding emergent socio-economic phenomena, such as the spread of behaviors or ideas within populations, the dynamics of social interactions, and cooperation among individuals."
   day: 5
+- name: "Salvatore Citraro"
+  surname: "Citraro"
+  institution: "Institute of Information Science and Technologies (ISTI) of the National Research Council of Italy (CNR)"
+  img_url:  "/assets/images/speaker_Citraro.jpg"
+  description: "Computational methods in social sciences have revolutionized our understanding of human behavior, from the structure of social networks to large-scale collective changes and debates. With the growth of social networks, researchers have focused on studying methods to extract information from such a large quantity of unstructured data. An important aspect of this transformation is the advantage of studying social debates and political dynamics at scale. Within this broader landscapes, for instance, echo chambers in digital environments refer to the amplification of beliefs within a closed system, isolated from opposing views. Drawing on concepts from the science of complex networks, we conceptualize, among others, echo chambers as a complex phenomenon, where interacting users form closed systems. By employing social network analysis techniques, such as community detection and assortativity measures, we review methods that capture these closed systems and their dynamics."
+  topics: ["Social Networks", "Network Science", "Cognitive Network Science"]
+  home: false
+  title: 'Introducing XUI: Enhancing Model Reliability through eXplainable User Interfaces'
+  bio: "Salvatore Citraro holds a Master's degree in Digital Humanities, with a specialization in Language Technologies, and a Ph.D. in Computer Science at the University of Pisa, with a thesis focused on enriched complex network analysis. Currently, he works as a researcher at ISTI-CNR, with interests at the intersection of Data Mining, Natural Language Processing (NLP), and Network Science. His major works are on cognitive network science, an interdisciplinary field that combines principles from cognitive science and network theory to study how information, ideas, and behaviors are processed and spread within networks."
+  day: 3
 

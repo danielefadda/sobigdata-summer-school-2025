@@ -128,7 +128,7 @@ activities:
   wednesday:
     content:
       icon: "comment"
-      text: "**TBA**"
+      text: "**Paolo Gerbaudo**<br>Making Sense of Affective Big Data: Sentiment Analysis and the Data Science of <em>Mass Online Conversations</em>"
     rowspan: 1
   thursday:
     content:
@@ -155,7 +155,7 @@ activities:
   wednesday:
     content:
       icon: "comment"
-      text: "**Paolo Gerbaudo**<br>Making Sense of Affective Big Data: Sentiment Analysis and the Data Science of <em>Mass Online Conversations</em>"
+      text: "**Salvatore Citraro**<br>Political Dynamics through Complex Network Analysis"
     rowspan: 1
   thursday:
     content:
