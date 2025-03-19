@@ -11,13 +11,13 @@ activities:
 - time: "09:00 09:30"
   sunday:
     content:
-      icon: "id-card"
-      text: "**Registration**"
-    rowspan: 1
-  monday:
-    content:
       icon: ""
       text: ""
+    rowspan: 6
+  monday:
+    content:
+      icon: "id-card"
+      text: "**Registration**"
     rowspan: 1
   tuesday:
     content:
@@ -41,11 +41,6 @@ activities:
     rowspan: 1
 
 - time: "09:30 10:00"
-  sunday:
-    content:
-      icon: "comments"
-      text: "**Meeting with Tutors**"
-    rowspan: 16
   monday:
     content:
       icon: "comments"
@@ -142,6 +137,11 @@ activities:
     rowspan: 7
 
 - time: "12:00 12:15"
+  sunday:
+    content:
+      icon: "comments"
+      text: "**Meeting with Tutors**"
+    rowspan: 10
 
 - time: "12:15 12:30"
   wednesday:
