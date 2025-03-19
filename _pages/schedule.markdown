@@ -106,3 +106,83 @@ header_title: "From Data to Social Innovation"
                 </div>
         {% endfor %}
 </div>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+  headings.forEach(function(heading) {
+    if (!heading.id) {
+      let text = heading.textContent.trim();
+      let id = text
+        .toLowerCase()
+        .replace(/[^\w\s-]/g, '') 
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-');
+      heading.id = id;
+    }
+  });
+  
+  const table = document.querySelector('.program-table table');
+  if (!table) return;
+  
+  const tbody = table.querySelector('tbody');
+  if (!tbody) return;
+  
+  const rows = tbody.querySelectorAll('tr');
+  const virtualTable = [];
+  
+  for (let i = 0; i < rows.length; i++) {
+    virtualTable[i] = [];
+  }
+  
+  let rowIndex = 0;
+  rows.forEach(row => {
+    let colIndex = 0;
+    
+    Array.from(row.cells).forEach(cell => {
+      while (virtualTable[rowIndex][colIndex]) {
+        colIndex++;
+      }
+      
+      const rowspan = parseInt(cell.getAttribute('rowspan')) || 1;
+      const colspan = parseInt(cell.getAttribute('colspan')) || 1;
+      
+      for (let i = 0; i < rowspan; i++) {
+        for (let j = 0; j < colspan; j++) {
+          if (!virtualTable[rowIndex + i]) {
+            virtualTable[rowIndex + i] = [];
+          }
+          virtualTable[rowIndex + i][colIndex + j] = {
+            cell: cell,
+            originalRow: rowIndex,
+            originalCol: colIndex
+          };
+        }
+      }
+      
+      colIndex += colspan;
+    });
+    
+    rowIndex++;
+  });
+  
+  for (let i = 0; i < virtualTable.length; i++) {
+    for (let j = 1; j < virtualTable[i].length; j++) {
+      const cellInfo = virtualTable[i][j];
+      if (!cellInfo) continue;
+      
+      const timeCell = virtualTable[i][0]?.cell;
+      if (!timeCell) continue;
+      
+      cellInfo.cell.addEventListener('mouseenter', function() {
+        timeCell.classList.add('highlight-time-cell');
+      });
+      
+      cellInfo.cell.addEventListener('mouseleave', function() {
+        timeCell.classList.remove('highlight-time-cell');
+      });
+    }
+  }
+});
+</script>

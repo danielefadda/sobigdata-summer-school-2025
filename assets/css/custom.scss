@@ -294,7 +294,7 @@ h3 {
     width: 100%;
     border-collapse: collapse;
     font-size: small;
-    border: 1px solid #f2f2f2;
+    border: none;
     table-layout: fixed;
 }
 
@@ -302,6 +302,8 @@ h3 {
 .program-table th:first-child,
 .program-table td:first-child {
   width: 10%;
+  background-color: #07286E;
+  color: white;
 }
 
 .program-table th:not(:first-child),
@@ -318,20 +320,51 @@ h3 {
 .program-table td {
     border: 1px solid #f2f2f2;
     vertical-align: top;
+    border-bottom: 1px solid #87879c;
+    border-left: none;
+    border-right: none;
 }
 
 
 .program-table .break {
-    background-color: #f2f2f2;
+    background-color: #e7eff1;
 }
 
-/* Stili aggiuntivi per un migliore rendering */
 .program-table th,
 .program-table td {
   word-wrap: break-word;
   overflow-wrap: break-word;
   padding: 8px;
 }
+
+table td {
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+tr:hover {
+  background-color: rgba(200, 200, 200, 0.2);
+}
+
+table td {
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+tr:hover {
+  background-color: rgba(200, 200, 200, 0.2);
+}
+
+.highlight-time-cell {
+  background-color: rgb(155, 22, 38) !important;
+  font-weight: bold;
+  color: white;
+}
+
+td:hover {
+  background-color: rgba(173, 216, 230, 0.5);
+}
+
 
 // grid of logos
 .logo-grid {
