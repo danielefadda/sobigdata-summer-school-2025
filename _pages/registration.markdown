@@ -18,7 +18,12 @@ header_title: "From Data to Social Innovation"
         <div class="row pt-2 ">
             <div class="col-md-8 offset-md-2 col-sm-12">
                 <h3>Registration for the SoBigData Summer School 2025</h3>
-                <p class="lead">The cost of the summer school is <strong>850€</strong></p>
+                <p class="lead">The cost of the summer school is <br>
+                <ul>
+                    <li><strong>850€</strong> for master and PhD students</li>
+                    <li><strong>1250€</strong> for the others</li>
+                </ul>
+                </p>
                 <p>The fee is valid until the <strong>30 April 2025 (early registration).</strong></p>
                 <p>Registration costs <strong>€250</strong> more between <strong>1 May 2025 and 31 May 2025 (late registration).</strong></p>
                 <p>The registration fee comprises:</p>

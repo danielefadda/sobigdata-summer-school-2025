@@ -19,7 +19,7 @@ activities:
       icon: ""
       text: ""
     rowspan: 1
-  thursday:
+  tuesday:
     content:
       icon: ""
       text: ""
@@ -28,8 +28,8 @@ activities:
     content:
       icon: ""
       text: ""
-    rowspan: 1
-  tuesday:
+      rowspan: 1
+  thursday:
     content:
       icon: ""
       text: ""
@@ -45,7 +45,7 @@ activities:
     content:
       icon: "comments"
       text: "**Meeting with Tutors**"
-    rowspan: 10
+    rowspan: 16
   monday:
     content:
       icon: "comments"
@@ -114,54 +114,69 @@ activities:
     rowspan: 1
   class: break
 
-- time: "11:30 12:30"
+- time: "11:30 12:00"
   monday:
     content:
       icon: "comment"
       text: "**Juan Duran**<br>On the Ethics and Epistemology of Data Science: Mapping the Debate"
-    rowspan: 1
+    rowspan: 3
   tuesday:
     content:
       icon: "comment"
       text: "**Fabiana Zollo**"
-    rowspan: 1
+    rowspan: 3
   wednesday:
     content:
       icon: "comment"
       text: "**Paolo Gerbaudo**<br>Making Sense of Affective Big Data: Sentiment Analysis and the Data Science of <em>Mass Online Conversations</em>"
-    rowspan: 1
+    rowspan: 2
   thursday:
     content:
       icon: "comment"
       text: "**Michele Starnini**"
-    rowspan: 1
+    rowspan: 3
   friday:
     content:
       icon: "comments"
       text: "**Students presentation**<br>"
+    rowspan: 7
+
+- time: "12:00 12:15"
+
+- time: "12:15 12:30"
+  wednesday:
+    content:
+      icon: "comment"
+      text: "TBA"
     rowspan: 2
 
-- time: "12:30 13:30"
+- time: "12:30 12:45"
   monday:
     content:
       icon: "comment"
       text: "**Mark Coté**<br>Data Altruism"
-    rowspan: 1
+    rowspan: 4
   tuesday:
     content:
       icon: "comment"
       text: "**Salvatore Rinzivillo**<br>Introducing XUI: Enhancing Model Reliability through eXplainable User Interfaces"
-    rowspan: 1
-  wednesday:
-    content:
-      icon: "comment"
-      text: "**Salvatore Citraro**<br>Political Dynamics through Complex Network Analysis"
-    rowspan: 1
+    rowspan: 4
   thursday:
     content:
       icon: "comment"
       text: "**Luca Pappalardo**<br>Human-AI Coevolution"
-    rowspan: 1
+    rowspan: 4
+
+- time: "12:45 13:00"
+  wednesday:
+    content:
+      icon: "comment"
+      text: "**Salvatore Citraro**<br>Political Dynamics through Complex Network Analysis"
+    rowspan: 3
+
+- time: "13:00 13:15"
+
+- time: "13:15 13:30"
 
 - time: "13:30 15:00"
   monday:
@@ -259,11 +274,6 @@ activities:
       icon: "handshake"
       text: "**Welcome Cockatil**"
     rowspan: 1
-  monday:
-    content:
-      icon: ""
-      text: ""
-    rowspan: 1
   tuesday:
     content:
       icon: "handshake"
@@ -271,14 +281,15 @@ activities:
     rowspan: 2
   wednesday:
     content:
-      icon: ""
       text: ""
+      icon: ""
     rowspan: 1
   thursday:
     content:
-      icon: ""
       text: ""
+      icon: ""
     rowspan: 1
+
 
 - time: "20:00"
   sunday:
