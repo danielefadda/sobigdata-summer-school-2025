@@ -128,7 +128,7 @@ activities:
   thursday:
     content:
       icon: "comment"
-      text: "**Michele Starnini**"
+      text: "**Salvatore Rinzivillo**<br>Introducing XUI: Enhancing Model Reliability through eXplainable User Interfaces"
     rowspan: 3
   friday:
     content:
@@ -159,7 +159,7 @@ activities:
   tuesday:
     content:
       icon: "comment"
-      text: "**Salvatore Rinzivillo**<br>Introducing XUI: Enhancing Model Reliability through eXplainable User Interfaces"
+      text: "**Michele Starnini**"
     rowspan: 4
   thursday:
     content:
