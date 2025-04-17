@@ -159,7 +159,7 @@ activities:
   tuesday:
     content:
       icon: "comment"
-      text: "**Michele Starnini**"
+      text: "**Michele Starnini**<br>Ideological radicalization on social media"
     rowspan: 4
   thursday:
     content:

@@ -122,7 +122,7 @@ Course “Legal and Ethical aspects of Data Science” and author of the recurri
   home: false
   title: 'Introducing XUI: Enhancing Model Reliability through eXplainable User Interfaces'
   bio: "SR is a computer scientist, specialized in AI and machine learning, particularly focusing on enhancing explainability within these fields to foster trust and reliability. With a keen interest in visual representations of data, he bridges the gap between technology and understanding, making complex concepts accessible to all audiences. Beyond his professional pursuits, his background as a maker drives him to continually explore new possibilities and push boundaries in creative problem-solving."
-  day: 2
+  day: 5
 - name: "Michele Starnini"
   surname: "Starnini"
   institution: "Universitat Pompeu Fabra"
@@ -132,7 +132,7 @@ Course “Legal and Ethical aspects of Data Science” and author of the recurri
   home: false
   title: 'Ideological radicalization on social media: Echo-chambers, misinformation spreading, and platform migration.'
   bio: "Michele Starnini is currently a Ramon y Cajal fellow at the Universitat Pompeu Fabra. He authored more than 45 papers in physics, sociological, biological, and computer science journals, collecting more than 4900 citations. He has led several national, European, and extra-European research projects. He is a researcher in complex systems, networks, and computational social sciences. His work focuses on understanding emergent socio-economic phenomena, such as the spread of behaviors or ideas within populations, the dynamics of social interactions, and cooperation among individuals."
-  day: 5
+  day: 2
 - name: "Salvatore Citraro"
   surname: "Citraro"
   institution: "Institute of Information Science and Technologies (ISTI) of the National Research Council of Italy (CNR)"
