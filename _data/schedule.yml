@@ -109,74 +109,61 @@ activities:
     rowspan: 1
   class: break
 
-- time: "11:30 12:00"
+- time: "11:30 12:30"
   monday:
     content:
       icon: "comment"
       text: "**Juan Duran**<br>On the Ethics and Epistemology of Data Science: Mapping the Debate"
-    rowspan: 3
+    rowspan: 1
   tuesday:
     content:
       icon: "comment"
       text: "**Fabiana Zollo**"
-    rowspan: 3
+    rowspan: 1
   wednesday:
     content:
       icon: "comment"
       text: "**Paolo Gerbaudo**<br>Making Sense of Affective Big Data: Sentiment Analysis and the Data Science of <em>Mass Online Conversations</em>"
-    rowspan: 2
+    rowspan: 1
   thursday:
     content:
       icon: "comment"
       text: "**Salvatore Rinzivillo**<br>Introducing XUI: Enhancing Model Reliability through eXplainable User Interfaces"
-    rowspan: 3
+    rowspan: 1
   friday:
     content:
       icon: "comments"
       text: "**Students presentation**<br>"
-    rowspan: 7
+    rowspan: 2
 
-- time: "12:00 12:15"
+
+
+- time: "12:30 13:30"
   sunday:
     content:
       icon: "comments"
       text: "**Meeting with Tutors**"
-    rowspan: 10
-
-- time: "12:15 12:30"
-  wednesday:
-    content:
-      icon: "comment"
-      text: "TBA"
-    rowspan: 3
-
-- time: "12:30 12:45"
+    rowspan: 5
   monday:
     content:
       icon: "comment"
       text: "**Mark Coté**<br>Data Altruism"
-    rowspan: 4
+    rowspan: 1
   tuesday:
     content:
       icon: "comment"
       text: "**Michele Starnini**<br>Ideological radicalization on social media"
-    rowspan: 4
-  thursday:
-    content:
-      icon: "comment"
-      text: "**Luca Pappalardo**<br>Human-AI Coevolution"
-    rowspan: 4
-
-- time: "12:45 13:00"
-
-- time: "13:00 13:15"
+    rowspan: 1
   wednesday:
     content:
       icon: "comment"
       text: "**Salvatore Citraro**<br>Political Dynamics through Complex Network Analysis"
-    rowspan: 2
-
-- time: "13:15 13:30"
+    rowspan: 1
+  thursday:
+    content:
+      icon: "comment"
+      text: "**Luca Pappalardo**<br>Human-AI Coevolution"
+    rowspan: 1
 
 - time: "13:30 15:00"
   monday:
@@ -221,7 +208,7 @@ activities:
     content:
       icon: "handshake"
       text: "**Social Event**<br>trip to Populonia"
-    rowspan: 4
+    rowspan: 3
   thursday:
     content:
       icon: "laptop"
@@ -268,11 +255,16 @@ activities:
       text: "**Student Projects <br>Development**"
     rowspan: 1
 
-- time: "18:00 19:00"
+- time: "18:00 20:30"
   sunday:
     content:
       icon: "handshake"
       text: "**Welcome Cockatil**"
+    rowspan: 1
+  monday:
+    content:
+      icon: ""
+      text: ""
     rowspan: 1
   tuesday:
     content:
@@ -289,9 +281,13 @@ activities:
       text: ""
       icon: ""
     rowspan: 1
+  friday:
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
 
-
-- time: "20:00"
+- time: "20:30"
   sunday:
     content:
       icon: "cutlery"
