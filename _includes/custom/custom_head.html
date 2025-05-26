@@ -16,6 +16,11 @@
 <meta name="msapplication-TileColor" content="#333333">
 <meta name="msapplication-config" content="{{site.baseurl}}/assets/favicon/browserconfig.xml">
 <meta name="theme-color" content="#333333">
+
+{% if include.imghero %}
 <meta property="og:image" content="{{ include.imghero | absolute_url }}">
+{% else %}
+<meta property="og:image" content="https://summerschool2025.sobigdata.eu/assets/images/poggio.jpg">
+{% endif %}
 
 <!-- end custom head snippets -->
