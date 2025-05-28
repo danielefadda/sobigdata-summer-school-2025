@@ -283,8 +283,8 @@ activities:
     rowspan: 1
   friday:
     content:
-      icon: ""
-      text: ""
+      icon: "handshake"
+      text: "**Internal meeting** SoBigData PPP"
     rowspan: 1
 
 - time: "20:30"
